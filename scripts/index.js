@@ -34,7 +34,7 @@ const courses = [
     code: "WDD131",
     name: "Dynamic Web Fundamentals",
     description:
-      "This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events, update content, and create responsive user experiences.",
+      "This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events, update content, and create menu-open user experiences.",
     status: "completed",
   },
   {
@@ -87,6 +87,18 @@ const getYear = () => {
 const getLastUpdate = () => {
   const date = document.lastModified;
   return date.toLocaleString();
+};
+
+const handleMenu = () => {
+  const menu = document.getElementById("menu");
+  const icon = document.getElementById("menu-icon");
+  if (menu.classList.contains("menu-open")) {
+    menu.classList.remove("menu-open");
+    icon.classList.replace("fa-times", "fa-bars");
+  } else {
+    menu.classList.add("menu-open");
+    icon.classList.replace("fa-bars", "fa-times");
+  }
 };
 
 /** DOM Manipulation */

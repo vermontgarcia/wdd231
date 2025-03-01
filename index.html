@@ -9,6 +9,10 @@
       name="description"
       content="Home page for class WDD231 - Web Frontend Development I"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/index.css" />
@@ -21,8 +25,8 @@
         <img src="images/profile.webp" alt="Vermont Garcia profile image" />
         <p>Vermont Garcia</p>
       </div>
-      <nav>
-        <a href="index.html">Home</a>
+      <nav class="menu" id="menu">
+        <a class="active" href="index.html">Home</a>
         <a href="chamber.html">Chamber</a>
         <a href="https://github.com/vermontgarcia" target="_blank"
           >GitHub Profile</a
@@ -30,6 +34,9 @@
         <a href="https://www.linkedin.com/in/vermontgarcia/" target="_blank"
           >LinkedIn</a
         >
+        <a role="button" class="menu-icon" onclick="handleMenu()">
+          <i id="menu-icon" class="fa fa-bars"></i>
+        </a>
       </nav>
     </header>
     <main>
@@ -58,13 +65,11 @@
         <div id="certificate-courses"></div>
       </section>
     </main>
-    <footer>
-      <footer class="footer">
-        <p class="copyright">
-          © <span id="current-year"></span> • Vermont Garcia • Provo Utah
-        </p>
-        <p id="last-modified"></p>
-      </footer>
+    <footer class="footer">
+      <p class="copyright">
+        © <span id="current-year"></span> • Vermont Garcia • Provo Utah
+      </p>
+      <p id="last-modified"></p>
     </footer>
   </body>
 </html>
