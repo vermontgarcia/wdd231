@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WDD231 | Vermont Garcia</title>
-    <meta name="author" content="Vermont Garcia">
-    <meta name="description" content="Home page for class WDD231 - Web Frontend Development I">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="author" content="Vermont Garcia" />
+    <meta
+      name="description"
+      content="Home page for class WDD231 - Web Frontend Development I"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <script src="scripts/index.js" defer></script>
-</head>
+  </head>
 
-<body>
-    <h1>Hello Class!</h1>
-</body>
-
+  <body>
+    <header>
+      <div>
+        <img src="images/profile.webp" alt="Vermont Garcia profile image" />
+        <p>Vermont Garcia</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="chamber.html">Chamber</a>
+        <a href="https://github.com/vermontgarcia" target="_blank"
+          >GitHub Profile</a
+        >
+        <a href="https://www.linkedin.com/in/vermontgarcia/" target="_blank"
+          >LinkedIn</a
+        >
+      </nav>
+    </header>
+    <main>
+      <h1>Home</h1>
+      <section>
+        <h2>Course Work</h2>
+        <ul id="course-work"></ul>
+      </section>
+      <section>
+        <h2>Provo, Utah</h2>
+        <figure>
+          <img
+            src="images/natural-bridge-bryce-canyon.webp"
+            alt="Bryce Canyon"
+          />
+          <figcaption>Natural Bridge</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Web and Computer Programming Certificate</h2>
+        <div>
+          <button>All</button>
+          <button>CSE</button>
+          <button>WDD</button>
+        </div>
+        <div id="certificate-courses"></div>
+      </section>
+    </main>
+    <footer>
+      <footer class="footer">
+        <p class="copyright">
+          © <span id="current-year"></span> • Vermont Garcia • Provo Utah
+        </p>
+        <p id="last-modified"></p>
+      </footer>
+    </footer>
+  </body>
 </html>
