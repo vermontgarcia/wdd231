@@ -1,9 +1,42 @@
 /* Site Styles - Mobile First*/
 
+:root {
+  --background-color: #48639c;
+  --background-color-menu: #333333;
+  --background-color-ligth: #ddd;
+  --text-color-ligth: #F2F2F2;
+  --box-shadow-ligth: #f5f5f5;
+
+}
+
+/* Header */
+
+header div {
+display: flex;
+padding: 1rem;
+align-items: center;
+justify-content: center;
+background-color: var(--background-color);
+}
+
+header div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  box-shadow: 1px 1px 4px var(--box-shadow-ligth);
+  margin-right: 1rem;
+}
+
+header p {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--text-color-ligth);
+}
+
 /* Menu  */
 .menu {
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--background-color-menu);
   display: flex;
   justify-content: flex-end;
 }
@@ -11,7 +44,7 @@
 .menu a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--text-color-ligth);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,12 +53,12 @@
 }
 
 .menu a:hover {
-  background-color: #ddd;
+  background-color: var(--background-color-ligth);
   color: black;
 }
 
 .menu a.active {
-  background-color: #ddd;
+  background-color: var(--background-color-ligth);
   color: black;
 }
 
@@ -63,4 +96,101 @@
   .menu.menu-open {
     flex-direction: column;
   }
+}
+
+/* Main */
+
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--background-color-ligth);
+}
+
+.card .card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card h2 {
+  margin-top: 0;
+  background-color: var(--background-color-menu);
+  padding: 0.5rem;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  color: var(--text-color-ligth);
+}
+
+.card li {
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.button-container button {
+  background-color: var(--background-color-menu);
+  color: var(--text-color-ligth);
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate-courses {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.certificate-courses div {
+  padding: 0.5rem;
+  border: 1px solid var(--background-color-ligth);
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.certificate-courses div.completed {
+  background-color: var(--background-color);
+  color: var(--text-color-ligth);
+}
+
+.certificate-courses div.current {
+  background-color: var(--background-color-ligth);
+}
+
+/* Footer */
+footer {
+  background-color: var(--background-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-ligth);
+}
+
+footer p {
+  margin: 0;
 }

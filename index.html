@@ -16,18 +16,24 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/index.js" defer></script>
   </head>
 
   <body>
     <header>
       <div>
-        <img src="images/profile.webp" alt="Vermont Garcia profile image" />
+        <img
+          src="images/profile.webp"
+          alt="Vermont Garcia profile image"
+          width="100"
+          height="100"
+        />
         <p>Vermont Garcia</p>
       </div>
       <nav class="menu" id="menu">
         <a class="active" href="index.html">Home</a>
-        <a href="chamber.html">Chamber</a>
+        <a href="chamber/index.html">Chamber</a>
         <a href="https://github.com/vermontgarcia" target="_blank"
           >GitHub Profile</a
         >
@@ -40,29 +46,31 @@
       </nav>
     </header>
     <main>
-      <h1>Home</h1>
-      <section>
+      <h1>Web Frontend Development I</h1>
+      <section class="card">
         <h2>Course Work</h2>
-        <ul id="course-work"></ul>
+        <ul class="card-content" id="course-work"></ul>
       </section>
-      <section>
-        <h2>Provo, Utah</h2>
-        <figure>
+      <section class="card">
+        <h2>Utah, USA</h2>
+        <figure class="card-content">
           <img
             src="images/natural-bridge-bryce-canyon.webp"
             alt="Bryce Canyon"
           />
-          <figcaption>Natural Bridge</figcaption>
+          <figcaption>Natural Bridge - Bryce Canyon</figcaption>
         </figure>
       </section>
-      <section>
+      <section class="card certificate">
         <h2>Web and Computer Programming Certificate</h2>
-        <div>
-          <button>All</button>
-          <button>CSE</button>
-          <button>WDD</button>
+        <div class="card-content">
+          <div class="button-container">
+            <button>All</button>
+            <button>CSE</button>
+            <button>WDD</button>
+          </div>
+          <div class="certificate-courses" id="certificate-courses"></div>
         </div>
-        <div id="certificate-courses"></div>
       </section>
     </main>
     <footer class="footer">
