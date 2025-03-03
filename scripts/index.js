@@ -118,10 +118,10 @@ const handleMenu = () => {
   const icon = document.getElementById("menu-icon");
   if (menu.classList.contains("menu-open")) {
     menu.classList.remove("menu-open");
-    icon.classList.replace("fa-times", "fa-bars");
+    icon.innerHTML = "menu";
   } else {
     menu.classList.add("menu-open");
-    icon.classList.replace("fa-bars", "fa-times");
+    icon.innerHTML = "close";
   }
 };
 
