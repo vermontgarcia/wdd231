@@ -3,46 +3,70 @@ console.log("Hello class from console!");
 // Content
 const courses = [
   {
-    code: "CSE110",
-    name: "Intro to Programming",
+    subject: "CSE",
+    number: 110,
+    title: "Introduction to Programming",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
       "This course will introduce students to programming. It will introduce the building blocks of programming languages (variables, decisions, calculations, loops, array, and input/output) and use them to solve problems.",
-    status: "completed",
+    technology: ["Python"],
+    completed: true,
   },
   {
-    code: "WDD130",
-    name: "Web Fundamentals",
+    subject: "WDD",
+    number: 130,
+    title: "Web Fundamentals",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
       "This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands on with students actually participating in simple web designs and programming. It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.",
-    status: "completed",
+    technology: ["HTML", "CSS"],
+    completed: true,
   },
   {
-    code: "CSE111",
-    name: "Programming with Functions",
+    subject: "CSE",
+    number: 111,
+    title: "Programming with Functions",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
       "CSE 111 students become more organized, efficient, and powerful computer programmers by learning to research and call functions written by others; to write, call , debug, and test their own functions; and to handle errors within functions. CSE 111 students write programs with functions to solve problems in many disciplines, including business, physical science, human performance, and humanities.",
-    status: "completed",
+    technology: ["Python"],
+    completed: true,
   },
   {
-    code: "CSE210",
-    name: "Programming with Classes",
+    subject: "CSE",
+    number: 210,
+    title: "Programming with Classes",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
       "This course will introduce the notion of classes and objects. It will present encapsulation at a conceptual level. It will also work with inheritance and polymorphism.",
-    status: "completed",
+    technology: ["C#"],
+    completed: true,
   },
   {
-    code: "WDD131",
-    name: "Dynamic Web Fundamentals",
+    subject: "WDD",
+    number: 131,
+    title: "Dynamic Web Fundamentals",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
-      "This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events, update content, and create menu-open user experiences.",
-    status: "completed",
+      "This course builds on prior experience in Web Fundamentals and programming. Students will learn to create dynamic websites that use JavaScript to respond to events, update content, and create responsive user experiences.",
+    technology: ["HTML", "CSS", "JavaScript"],
+    completed: true,
   },
   {
-    code: "WDD231",
-    name: "Web Frontend Development I",
+    subject: "WDD",
+    number: 231,
+    title: "Frontend Web Development I",
+    credits: 2,
+    certificate: "Web and Computer Programming",
     description:
       "This course builds on prior experience with Dynamic Web Fundamentals and programming. Students will focus on user experience, accessibility, compliance, performance optimization, and basic API usage.",
-    status: "current",
+    technology: ["HTML", "CSS", "JavaScript"],
+    completed: false,
   },
 ];
 
@@ -114,15 +138,34 @@ document.getElementById("course-work").append(
 );
 
 // Main: Courses Section
-document.getElementById("certificate-courses").append(
-  ...courses.map((course) => {
-    // Courses Elements
-    const div = document.createElement("div");
-    div.innerHTML = course.code;
-    div.classList.add(course.status);
-    return div;
-  })
-);
+const setCourses = (set = "all") => {
+  let newCoursesSet = [...courses];
+  if (set !== "all") {
+    newCoursesSet = courses.filter(
+      (course) => course.subject.toLowerCase() === set
+    );
+  }
+
+  const coursesContainer = document.getElementById("certificate-courses");
+  coursesContainer.innerHTML = "";
+
+  coursesContainer.append(
+    ...newCoursesSet.map((course) => {
+      // Courses Elements
+      const div = document.createElement("div");
+      div.innerHTML = `${course.subject} ${course.number}`;
+      div.classList.add(course.completed ? "completed" : "current");
+      return div;
+    })
+  );
+
+  document.getElementById("total-credits").innerHTML = newCoursesSet.reduce(
+    (credits, course) => credits + course.credits,
+    0
+  );
+};
+
+setCourses();
 
 // Footer
 document.getElementById("current-year").innerHTML = getYear();
