@@ -65,9 +65,15 @@
         <h2>Web and Computer Programming Certificate</h2>
         <div class="card-content">
           <div class="button-container">
-            <button>All</button>
-            <button>CSE</button>
-            <button>WDD</button>
+            <button onclick="setCourses('all')">All</button>
+            <button onclick="setCourses('cse')">CSE</button>
+            <button onclick="setCourses('wdd')">WDD</button>
+          </div>
+          <div>
+            <p>
+              Total credits of displayed courses:
+              <span id="total-credits"></span>
+            </p>
           </div>
           <div class="certificate-courses" id="certificate-courses"></div>
         </div>
