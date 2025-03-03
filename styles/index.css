@@ -9,6 +9,12 @@
 
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Header */
 
 header div {
@@ -141,6 +147,10 @@ main {
 
 .card img {
   border-radius: 5px;
+}
+
+.card .card-content p {
+  text-align: center;
 }
 
 .button-container {
