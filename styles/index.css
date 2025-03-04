@@ -168,6 +168,8 @@ main {
 
 .card img {
   border-radius: 5px;
+  width: 100%;
+  height: auto;
 }
 
 .card .card-content p {
