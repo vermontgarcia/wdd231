@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Brigham Young University",
+    "address": "Provo, UT 84602",
+    "phoneNumber": "(801) 422-4636",
+    "websiteUrl": "https://www.byu.edu/",
+    "imageFilename": "byu-monogram.svg",
+    "imageUrl": "images/business/byu-logo.png",
+    "membershipLevel": 3,
+    "description": "A private research university owned by The Church of Jesus Christ of Latter-day Saints."
+  },
+  {
+    "name": "Vivint Smart Home",
+    "address": "4931 N 300 W, Provo, UT 84604",
+    "phoneNumber": "(855) 832-1550",
+    "websiteUrl": "https://www.vivint.com/",
+    "imageFilename": "vivint_smart_home.jpg",
+    "imageUrl": "images/business/vivint-logo.png",
+    "membershipLevel": 3,
+    "description": "A smart home company offering home security systems and automation services."
+  },
+  {
+    "name": "Qualtrics",
+    "address": "333 W River Park Dr, Provo, UT 84604",
+    "phoneNumber": "(800) 340-9194",
+    "websiteUrl": "https://www.qualtrics.com/",
+    "imageFilename": "qualtrics-xm-long.svg",
+    "imageUrl": "images/business/qualtrics-xm-long.svg",
+    "membershipLevel": 3,
+    "description": "An experience management company offering survey software solutions."
+  },
+  {
+    "name": "Nu Skin Enterprises",
+    "address": "75 W Center St, Provo, UT 84601",
+    "phoneNumber": "(800) 487-1000",
+    "websiteUrl": "https://www.nuskin.com/",
+    "imageFilename": "nu_skin_enterprises.jpg",
+    "imageUrl": "images/business/nu-skin-logo.svg",
+    "membershipLevel": 3,
+    "description": "A multi-level marketing company developing and selling personal care products and dietary supplements."
+  },
+  {
+    "name": "Action Target",
+    "address": "3411 S Mountain Vista Pkwy, Provo, UT 84606",
+    "phoneNumber": "(801) 377-8033",
+    "websiteUrl": "https://www.actiontarget.com/",
+    "imageFilename": "action_target.jpg",
+    "imageUrl": "images/business/action-target-logo.png",
+    "membershipLevel": 2,
+    "description": "Designs and manufactures shooting ranges and firearms training facilities."
+  },
+  {
+    "name": "Ancestry",
+    "address": "1300 W Traverse Pkwy, Lehi, UT 84043",
+    "phoneNumber": "(800) 615-6560",
+    "websiteUrl": "https://www.ancestry.com/",
+    "imageFilename": "ancestry.jpg",
+    "imageUrl": "images/business/ancestry-logo.svg",
+    "membershipLevel": 3,
+    "description": "Provides access to genealogical and historical records, as well as DNA testing services."
+  },
+  {
+    "name": "Revere Health",
+    "address": "1055 N 500 W, Provo, UT 84604",
+    "phoneNumber": "(801) 429-8000",
+    "websiteUrl": "https://reverehealth.com/",
+    "imageFilename": "revere_health.jpg",
+    "imageUrl": "images/business/revere-logo-crop.webp",
+    "membershipLevel": 2,
+    "description": "The largest independent multispecialty physician group in Utah."
+  },
+  {
+    "name": "Utah Community Credit Union",
+    "address": "188 W 5200 N, Provo, UT 84604",
+    "phoneNumber": "(800) 453-8188",
+    "websiteUrl": "https://www.uccu.com/",
+    "imageFilename": "utah_community_credit_union.jpg",
+    "imageUrl": "images/business/uccu-logo.png",
+    "membershipLevel": 2,
+    "description": "A federally chartered credit union offering a range of financial services."
+  },
+  {
+    "name": "Bluehost",
+    "address": "5335 Gate Pkwy, Jacksonville, FL 32256",
+    "phoneNumber": "(888) 401-4678",
+    "websiteUrl": "https://www.bluehost.com/",
+    "imageFilename": "bluehost.jpg",
+    "imageUrl": "images/business/bluehost-logo.svg",
+    "membershipLevel": 2,
+    "description": "A web hosting company owned by Endurance International Group."
+  },
+  {
+    "name": "CircusTrix",
+    "address": "3700 N Thanksgiving Way #100, Lehi, UT 84043",
+    "phoneNumber": "(800) 678-5340",
+    "websiteUrl": "https://www.circustrix.com/",
+    "imageFilename": "circustrix.jpg",
+    "imageUrl": "images/business/skyzone-logo-white.webp",
+    "membershipLevel": 1,
+    "description": "Operates indoor recreation parks featuring trampolines and obstacle courses."
+  },
+  {
+    "name": "Angel Studios",
+    "address": "Provo, UT",
+    "phoneNumber": "(385) 355-0040",
+    "websiteUrl": "https://www.angel.com/",
+    "imageFilename": "angel_studios.jpg",
+    "imageUrl": "images/business/angel-studios-logo.webp",
+    "membershipLevel": 3,
+    "description": "A media company that produces and distributes content, including films and television series."
+  },
+  {
+    "name": "VitalSmarts",
+    "address": "Provo, UT",
+    "phoneNumber": "(801) 375-4020",
+    "websiteUrl": "https://www.vitalsmarts.com/",
+    "imageFilename": "vitalsmarts.jpg",
+    "imageUrl": "images/business/crutial-learning-logo.svg",
+    "membershipLevel": 2,
+    "description": "A company specializing in corporate training and organizational performance."
+  },
+  {
+    "name": "Morinda Bioactives",
+    "address": "Provo, UT",
+    "phoneNumber": "(801) 370-2000",
+    "websiteUrl": "https://www.morinda.com/",
+    "imageFilename": "morinda_bioactives.jpg",
+    "imageUrl": "images/business/partner-logo.png",
+    "membershipLevel": 2,
+    "description": "A company specializing in health and wellness products derived from the noni fruit."
+  },
+  {
+    "name": "North American Arms",
+    "address": "Provo, UT",
+    "phoneNumber": "(801) 377-4867",
+    "websiteUrl": "https://www.northamericanarms.com/",
+    "imageFilename": "north_american_arms.jpg",
+    "imageUrl": "images/business/naa-logo.png",
+    "membershipLevel": 2,
+    "description": "A manufacturer of compact revolvers and firearms accessories."
+  },
+  {
+    "name": "Frontier Communications",
+    "address": "Provo, UT",
+    "phoneNumber": "(801) 852-6000",
+    "websiteUrl": "https://www.frontier.com/",
+    "imageFilename": "frontier_communications.jpg",
+    "imageUrl": "images/business/frontier-logo.svg",
+    "membershipLevel": 2,
+    "description": "A telecommunications company offering internet, TV, and phone services."
+  }
+]
