@@ -93,28 +93,12 @@ main {
 
 /* WIP */
 
-/* section {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-} */
-
-/* section {
-  padding: 3rem;
-} */
-
 main section > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-/* main section div img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-} */
 
 /* WIP */
 
@@ -136,7 +120,6 @@ header>div {
 .logo-container {
   display: flex;
   margin: 0.5rem;
-  
 }
 
 .logo-name-container {
@@ -193,12 +176,12 @@ header>div {
 }
 
 @media screen and (max-width: 600px) {
-  .menu a {display: none;}
   .menu-btn a.menu-icon {
     float: right;
     display: block;
   }
   .menu a{
+    display: none;
     width: unset;
   }
 }
