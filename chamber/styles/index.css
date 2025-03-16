@@ -70,8 +70,8 @@ main {
 
 #directory-container.list .business-card {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  flex-direction: column;
+  /* gap: 1rem; */
   padding: 0.5rem;
 }
 
