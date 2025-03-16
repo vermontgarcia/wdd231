@@ -145,6 +145,8 @@ header>div {
   background-color: var(--background-color-dark);
   display: flex;
   justify-content: flex-end;
+  height: 0;
+  transition: height 200ms ease-out;
 }
 
 .menu a {
@@ -184,9 +186,6 @@ header>div {
     display: none;
     width: unset;
   }
-}
-
-@media screen and (max-width: 600px) {
   .menu.menu-open a {
     float: none;
     display: block;
@@ -195,6 +194,9 @@ header>div {
   }
   .menu.menu-open {
     flex-direction: column;
+    opacity: 1;
+    height: 12rem;
+    transition: height 500ms ease-out, opacity 400ms ease-out;
   }
 }
 
