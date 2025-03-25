@@ -1,5 +1,6 @@
 import ListComponent from './ListComponent.js';
 import { businnessCardTemplate } from './templates.js';
+import { qs } from './utils.js';
 
 // DOM Manipulation
 document.getElementById('icon-btn-grid').addEventListener('click', () => {
@@ -21,7 +22,7 @@ document.getElementById('icon-btn-list').addEventListener('click', () => {
 
 //
 const directoryList = new ListComponent(
-  document.getElementById('directory-container'),
+  qs('#directory-container'),
   businnessCardTemplate,
   './data/members.json'
 );
