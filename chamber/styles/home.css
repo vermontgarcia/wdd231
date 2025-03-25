@@ -63,8 +63,8 @@ section {
 }
 
 .business-card-content {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   gap: 0.5rem;
   padding: 0.5rem;
 }
@@ -72,6 +72,7 @@ section {
 .business-card-content img {
   width: 100px;
   height: auto;
+  place-self: center;
 }
 
 .business-card-content div {
@@ -97,7 +98,10 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: -1rem;
+}
+
+.card-weather .weather-image img {
+  margin: -1.5rem;
 }
 
 /* Weather Skeleton */
