@@ -1,26 +1,36 @@
-import { businnessCardTemplate } from './templates.js';
 import { parseJson } from './utils.js';
 
 export default class ListComponent {
-  constructor(parentElement, template, dataUrl) {
+  constructor(
+    parentElement,
+    template,
+    dataUrl,
+    dataMapper = (data) => data,
+    clearParentElement = false
+  ) {
     this.data = [];
     this.parentElement = parentElement;
     this.template = template;
     this.dataUrl = dataUrl;
+    this.dataMapper = dataMapper;
+    this.clearParentElement = clearParentElement;
   }
 
-  async getData() {
+  async getData(dataMapper) {
     const data = await fetch(this.dataUrl);
-    this.data = await parseJson(data);
+    return dataMapper(await parseJson(data));
   }
 
-  renderList(list) {
-    const htmlStrins = list.map(this.template);
-    this.parentElement.insertAdjacentHTML('afterBegin', htmlStrins.join(''));
+  renderList(list, parentElement, template) {
+    if (this.clearParentElement) {
+      parentElement.innerHTML = '';
+    }
+    const htmlStrins = list.map(template);
+    parentElement.insertAdjacentHTML('afterBegin', htmlStrins.join(''));
   }
 
   async init() {
-    await this.getData();
-    this.renderList(this.data);
+    const data = await this.getData(this.dataMapper);
+    this.renderList(data, this.parentElement, this.template);
   }
 }
