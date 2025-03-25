@@ -1,0 +1,159 @@
+h1 {
+  margin: 0 1rem;
+
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hero picture {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.call-to-action {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: flex-end;
+  justify-self: end;
+  background-color: orange;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  position: relative;
+  bottom: 15%;
+  right: 8%;
+}
+
+section {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card-container {
+  background-color: var(--background-color-light);
+  min-height: 5rem;
+}
+
+.card-container h2 {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-light);
+  padding: 0.25rem .5rem;
+}
+
+#business-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.business-card {
+  /* height: 5rem; */
+  background-color: var(--background-color-light);
+  border-radius: 10px;
+}
+
+.business-card-header {
+  text-align: center;
+}
+
+.business-card-content {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.business-card-content img {
+  width: 100px;
+  height: auto;
+}
+
+.business-card-content div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+
+/* Weather Card */
+
+.card-weather {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+}
+
+.card-weather .weather-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+/* Weather Skeleton */
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  display: block;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #d8dde0;
+  }
+
+  100% {
+    background-color: #c6cdd2;
+  }
+}
+
+.skeleton-text {
+  height: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.skeleton-1 {
+  width: 4rem;
+}
+
+.skeleton-2 {
+  width: 5rem;
+}
+
+.skeleton-3 {
+  width: 7rem;
+}
+
+.skeleton-text__body {
+  width: 75%;
+}
+
+.weather-body li, .weather-image div {
+  list-style: none;
+  display: flex;
+  grid-template-columns: 1fr;
+}
+
+.card-weather .weather-image div, .weather-image span {
+  font-size: 1.5rem;
+  height: 1.5rem;
+}
+
+.forecast-body {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}

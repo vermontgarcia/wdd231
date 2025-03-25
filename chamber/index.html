@@ -30,9 +30,10 @@
     <link rel="icon" href="images/site/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/layout.js" type="module"></script>
-    <script type="module" src="scripts/Home.js"></script>
+    <script type="module" src="scripts/home.js"></script>
   </head>
 
   <body>
@@ -81,24 +82,312 @@
             height="313"
           />
         </picture>
+        <div class="call-to-action">Keynote Tickets</div>
       </div>
       <!-- Home Page Content -->
-      <!-- <section>
-        <div>
-          <h1>Business Directory</h1>
-          <div>
-            <div>
-              <a id="icon-btn-grid" role="button" class="icon-btn">
-                <i class="material-icons selected">grid_view</i>
-              </a>
-              <a id="icon-btn-list" role="button" class="icon-btn">
-                <i class="material-icons">list_alt</i>
-              </a>
-            </div>
+      <div>
+        <h1>Home</h1>
+      </div>
+      <section class="home-container">
+        <div id="events-container" class="card-container">
+          <h2>Events</h2>
+          <div class="card-content">
+            <p>No events available</p>
           </div>
         </div>
-        <div id="directory-container" class="grid"></div>
-      </section> -->
+        <div id="current-weather" class="card-container">
+          <h2>Current Weather</h2>
+          <!-- Dynamic Card Template -->
+          <div class="card-weather card-content">
+            <div class="weather-image">
+              <img
+                id="weather-icon"
+                class=""
+                src="//cdn.weatherapi.com/weather/64x64/night/296.png"
+                alt="weather icon"
+                width="80"
+                height="80"
+              />
+              <div class="temp">4.1 °C</div>
+            </div>
+            <div class="weather-body">
+              <ul id="weather-list">
+                <li>Light rain</li>
+                <li>Humidity: 87 %</li>
+                <li>Visibility: 7 km</li>
+                <li>Wind: 31.3 km/h</li>
+                <li>Wind Direction: SE</li>
+                <li>Wind Chill: -0.9 °C</li>
+                <li>Pressure: 1013 mb</li>
+                <li>Heat Index: 5.4 °C</li>
+                <li>Dew Point: 5.2 °C</li>
+              </ul>
+            </div>
+          </div>
+          <!-- ----- -->
+          <!-- Skeleton -->
+          <div class="card-weather">
+            <div class="weather-image">
+              <img
+                id="weather-icon"
+                class="weather-icon-hide"
+                src="images/site/weather-icon.svg"
+                alt="weather icon"
+                width="80"
+                height="80"
+              />
+              <div>
+                <span class="skeleton skeleton-text skeleton-1 temp"></span>
+              </div>
+            </div>
+            <div class="weather-body">
+              <ul id="weather-list">
+                <li>
+                  <span class="skeleton skeleton-text skeleton-2"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-3"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-1"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-2"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-3"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-1"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-2"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-3"></span>
+                </li>
+                <li>
+                  <span class="skeleton skeleton-text skeleton-1"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- ----- -->
+        </div>
+        <div id="forecast-weather" class="card-container">
+          <h2>Weather Forecast</h2>
+          <!-- Dynamic Forecast Template -->
+          <div class="card-forecast card-content">
+            <div>Today</div>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="//cdn.weatherapi.com/weather/64x64/day/176.png"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="temp">H: 6.2 °C</div>
+                <div class="temp">L: 1.8 °C</div>
+              </div>
+              <div>
+                <div>Sunrise: 07:00 am</div>
+                <div>Sunset: 07:33 pm</div>
+              </div>
+            </div>
+            <div>Tuesday</div>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="//cdn.weatherapi.com/weather/64x64/day/176.png"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="temp">H: 11.0 °C</div>
+                <div class="temp">L: 0.9 °C</div>
+              </div>
+              <div>
+                <div>Sunrise: 06:57 am</div>
+                <div>Sunset: 07:35 pm</div>
+              </div>
+            </div>
+            <div>Wednesday</div>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="//cdn.weatherapi.com/weather/64x64/day/176.png"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="temp">H: 6.7 °C</div>
+                <div class="temp">L: 4.2 °C</div>
+              </div>
+              <div>
+                <div>Sunrise: 06:55 am</div>
+                <div>Sunset: 07:37 pm</div>
+              </div>
+            </div>
+          </div>
+          <!-- ----- -->
+          <!-- Skeleton -->
+          <div class="card-forecast card-content">
+            <span class="skeleton skeleton-text skeleton-3"></span>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="images/site/weather-icon.svg"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+              </div>
+            </div>
+            <span class="skeleton skeleton-text skeleton-3"></span>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="images/site/weather-icon.svg"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+              </div>
+            </div>
+            <span class="skeleton skeleton-text skeleton-3"></span>
+            <div class="forecast-body">
+              <div>
+                <div class="weather-image">
+                  <img
+                    id="weather-icon"
+                    class=""
+                    src="images/site/weather-icon.svg"
+                    alt="weather icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+                <span class="skeleton skeleton-text skeleton-2"></span>
+              </div>
+              <div>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+                <span class="skeleton skeleton-text skeleton-3"></span>
+              </div>
+            </div>
+          </div>
+          <!-- ----- -->
+        </div>
+        <div id="business-card-container">
+          <!-- Template -->
+          <div class="business-card">
+            <div class="business-card-header">
+              <h3>Business Name</h3>
+              <p>Business Tag Line</p>
+            </div>
+            <hr />
+            <div class="business-card-content">
+              <img
+                src="images/business/byu-logo.png"
+                alt="byu-logo"
+                width="50"
+                height="50"
+              />
+              <div>
+                <p><strong>EMAIL</strong> info@gmail.com</p>
+                <p><strong>PHONE</strong> info@gmail.com</p>
+                <p><strong>SITE</strong> info@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="business-card">
+            <div class="business-card-header">
+              <h3>Business Name</h3>
+              <p>Business Tag Line</p>
+            </div>
+            <hr />
+            <div class="business-card-content">
+              <img
+                src="images/business/byu-logo.png"
+                alt="byu-logo"
+                width="50"
+                height="50"
+              />
+              <div>
+                <p><strong>EMAIL</strong> info@gmail.com</p>
+                <p><strong>PHONE</strong> info@gmail.com</p>
+                <p><strong>SITE</strong> info@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="business-card">
+            <div class="business-card-header">
+              <h3>Business Name</h3>
+              <p>Business Tag Line</p>
+            </div>
+            <hr />
+            <div class="business-card-content">
+              <img
+                src="images/business/byu-logo.png"
+                alt="byu-logo"
+                width="50"
+                height="50"
+              />
+              <div>
+                <p><strong>EMAIL</strong> info@gmail.com</p>
+                <p><strong>PHONE</strong> info@gmail.com</p>
+                <p><strong>SITE</strong> info@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <!-- ----- -->
+        </div>
+      </section>
       <!-- ----- -->
     </main>
     <footer class="footer">
