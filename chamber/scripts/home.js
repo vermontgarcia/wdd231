@@ -1,7 +1,7 @@
 import ListComponent from './ListComponent.js';
 import WeatherComponents from './WeatherComponents.js';
 import {
-  businessCard,
+  businessCardTemplate,
   forecastDataTemplate,
   weatherDataTemplate,
 } from './templates.js';
@@ -22,7 +22,7 @@ weatherCcomponents.init();
 
 const businessCards = new ListComponent(
   qs('#business-card-container'),
-  businessCard,
+  businessCardTemplate,
   './data/members.json',
   getTopMembers,
   true
