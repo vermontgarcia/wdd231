@@ -7,7 +7,9 @@
     "imageFilename": "byu-monogram.svg",
     "imageUrl": "images/business/byu-logo.png",
     "membershipLevel": 3,
-    "description": "A private research university owned by The Church of Jesus Christ of Latter-day Saints."
+    "description": "A private research university owned by The Church of Jesus Christ of Latter-day Saints.",
+    "tagline": "Enter to learn, go forth to serve.",
+    "contactEmail": "info@byu.edu"
   },
   {
     "name": "Vivint Smart Home",
@@ -17,7 +19,9 @@
     "imageFilename": "vivint_smart_home.jpg",
     "imageUrl": "images/business/vivint-logo.png",
     "membershipLevel": 3,
-    "description": "A smart home company offering home security systems and automation services."
+    "description": "A smart home company offering home security systems and automation services.",
+    "tagline": "Smarter security, better living.",
+    "contactEmail": "support@vivint.com"
   },
   {
     "name": "Qualtrics",
@@ -27,7 +31,9 @@
     "imageFilename": "qualtrics-xm-long.svg",
     "imageUrl": "images/business/qualtrics-xm-long.svg",
     "membershipLevel": 3,
-    "description": "An experience management company offering survey software solutions."
+    "description": "An experience management company offering survey software solutions.",
+    "tagline": "Experience matters.",
+    "contactEmail": "support@qualtrics.com"
   },
   {
     "name": "Nu Skin Enterprises",
@@ -37,7 +43,9 @@
     "imageFilename": "nu_skin_enterprises.jpg",
     "imageUrl": "images/business/nu-skin-logo.svg",
     "membershipLevel": 3,
-    "description": "A multi-level marketing company developing and selling personal care products and dietary supplements."
+    "description": "A multi-level marketing company developing and selling personal care products and dietary supplements.",
+    "tagline": "Empowering people to improve lives.",
+    "contactEmail": "info@nuskin.com"
   },
   {
     "name": "Action Target",
@@ -47,7 +55,9 @@
     "imageFilename": "action_target.jpg",
     "imageUrl": "images/business/action-target-logo.png",
     "membershipLevel": 2,
-    "description": "Designs and manufactures shooting ranges and firearms training facilities."
+    "description": "Designs and manufactures shooting ranges and firearms training facilities.",
+    "tagline": "Leading the way in shooting range innovation.",
+    "contactEmail": "info@actiontarget.com"
   },
   {
     "name": "Ancestry",
@@ -57,7 +67,9 @@
     "imageFilename": "ancestry.jpg",
     "imageUrl": "images/business/ancestry-logo.svg",
     "membershipLevel": 3,
-    "description": "Provides access to genealogical and historical records, as well as DNA testing services."
+    "description": "Provides access to genealogical and historical records, as well as DNA testing services.",
+    "tagline": "Discover your story.",
+    "contactEmail": "support@ancestry.com"
   },
   {
     "name": "Revere Health",
@@ -67,7 +79,9 @@
     "imageFilename": "revere_health.jpg",
     "imageUrl": "images/business/revere-logo-crop.webp",
     "membershipLevel": 2,
-    "description": "The largest independent multispecialty physician group in Utah."
+    "description": "The largest independent multispecialty physician group in Utah.",
+    "tagline": "Your health, our mission.",
+    "contactEmail": "info@reverehealth.com"
   },
   {
     "name": "Utah Community Credit Union",
@@ -77,7 +91,9 @@
     "imageFilename": "utah_community_credit_union.jpg",
     "imageUrl": "images/business/uccu-logo.png",
     "membershipLevel": 2,
-    "description": "A federally chartered credit union offering a range of financial services."
+    "description": "A federally chartered credit union offering a range of financial services.",
+    "tagline": "Your financial partner for life.",
+    "contactEmail": "support@uccu.com"
   },
   {
     "name": "Bluehost",
@@ -87,7 +103,9 @@
     "imageFilename": "bluehost.jpg",
     "imageUrl": "images/business/bluehost-logo.svg",
     "membershipLevel": 2,
-    "description": "A web hosting company owned by Endurance International Group."
+    "description": "A web hosting company owned by Endurance International Group.",
+    "tagline": "Build beyond boundaries.",
+    "contactEmail": "support@bluehost.com"
   },
   {
     "name": "CircusTrix",
@@ -97,7 +115,9 @@
     "imageFilename": "circustrix.jpg",
     "imageUrl": "images/business/skyzone-logo-white.webp",
     "membershipLevel": 1,
-    "description": "Operates indoor recreation parks featuring trampolines and obstacle courses."
+    "description": "Operates indoor recreation parks featuring trampolines and obstacle courses.",
+    "tagline": "Elevating play.",
+    "contactEmail": "info@circustrix.com"
   },
   {
     "name": "Angel Studios",
@@ -107,7 +127,9 @@
     "imageFilename": "angel_studios.jpg",
     "imageUrl": "images/business/angel-studios-logo.webp",
     "membershipLevel": 3,
-    "description": "A media company that produces and distributes content, including films and television series."
+    "description": "A media company that produces and distributes content, including films and television series.",
+    "tagline": "Stories that amplify light.",
+    "contactEmail": "contact@angel.com"
   },
   {
     "name": "VitalSmarts",
@@ -117,7 +139,9 @@
     "imageFilename": "vitalsmarts.jpg",
     "imageUrl": "images/business/crutial-learning-logo.svg",
     "membershipLevel": 2,
-    "description": "A company specializing in corporate training and organizational performance."
+    "description": "A company specializing in corporate training and organizational performance.",
+    "tagline": "Helping organizations change for good.",
+    "contactEmail": "support@vitalsmarts.com"
   },
   {
     "name": "Morinda Bioactives",
@@ -127,7 +151,9 @@
     "imageFilename": "morinda_bioactives.jpg",
     "imageUrl": "images/business/partner-logo.png",
     "membershipLevel": 2,
-    "description": "A company specializing in health and wellness products derived from the noni fruit."
+    "description": "A company specializing in health and wellness products derived from the noni fruit.",
+    "tagline": "Unlock the power of nature.",
+    "contactEmail": "support@morinda.com"
   },
   {
     "name": "North American Arms",
@@ -137,7 +163,9 @@
     "imageFilename": "north_american_arms.jpg",
     "imageUrl": "images/business/naa-logo.png",
     "membershipLevel": 2,
-    "description": "A manufacturer of compact revolvers and firearms accessories."
+    "description": "A manufacturer of compact revolvers and firearms accessories.",
+    "tagline": "Small guns, big performance.",
+    "contactEmail": "info@northamericanarms.com"
   },
   {
     "name": "Frontier Communications",
@@ -147,6 +175,8 @@
     "imageFilename": "frontier_communications.jpg",
     "imageUrl": "images/business/frontier-logo.svg",
     "membershipLevel": 2,
-    "description": "A telecommunications company offering internet, TV, and phone services."
+    "description": "A telecommunications company offering internet, TV, and phone services.",
+    "tagline": "Keeping you connected.",
+    "contactEmail": "support@frontier.com"
   }
 ]
