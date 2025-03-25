@@ -121,10 +121,6 @@ section {
   align-items: center;
 }
 
-.card-weather .weather-image img {
-  margin: -1.5rem;
-}
-
 /* Weather Skeleton */
 
 .skeleton {
