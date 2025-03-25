@@ -113,3 +113,20 @@ export const businessCardTemplate = (company) => {
     </div>
   `;
 };
+
+export const eventsTemplate = (event) => {
+  const { company, date, time, name, description } = event;
+  return `
+  <div class="event-item">
+    <div class="event-data">
+      <p>${date}</p>
+      <p>${time}</p>
+      <p>${company}</p>
+      </div>
+    <div class="event-detail">
+      <p>${name}</p>
+      <p>${description}</p>
+    </div>
+  </div>
+  `;
+};

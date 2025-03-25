@@ -85,6 +85,27 @@ section {
   padding: 1rem;
 }
 
+#events-container {
+  max-height: 17rem;
+  overflow-y: auto;
+}
+
+/* Events */
+
+.event-item .event-data {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+#events-container .event-item {
+  padding: 0.25rem 1rem;
+}
+
+#events-container .event-item:nth-child(odd) {
+  background-color: var(--text-color-light);
+  border-radius: 5px;
+}
 
 /* Weather Card */
 

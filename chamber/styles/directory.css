@@ -80,6 +80,6 @@ main section>div {
   display: none;
 }
 
-#directory-container.list .business-card:nth-child(odd) {
+#directory-container.list .event-item:nth-child(odd) {
   background-color: var(--background-color-light);
 }

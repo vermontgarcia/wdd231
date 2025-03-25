@@ -2,6 +2,7 @@ import ListComponent from './ListComponent.js';
 import WeatherComponents from './WeatherComponents.js';
 import {
   businessCardTemplate,
+  eventsTemplate,
   forecastDataTemplate,
   weatherDataTemplate,
 } from './templates.js';
@@ -18,7 +19,15 @@ const weatherCcomponents = new WeatherComponents(
 
 weatherCcomponents.init();
 
-// const events = new ListComponent(qs('#events-container .card-content'), );
+const events = new ListComponent(
+  qs('#events-container .card-content'),
+  eventsTemplate,
+  './data/events.json',
+  undefined,
+  true
+);
+
+events.init();
 
 const businessCards = new ListComponent(
   qs('#business-card-container'),
