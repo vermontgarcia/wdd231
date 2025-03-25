@@ -30,8 +30,6 @@ export const weatherDataTemplate = (weather) => {
   return `
     <div class="weather-image">
       <img
-        id="weather-icon"
-        class=""
         src="${iconUrl}"
         alt="weather icon"
         width="80"
@@ -63,8 +61,6 @@ export const forecastDataTemplate = (forecast) => {
       <div>
         <div class="weather-image">
           <img
-            id="weather-icon"
-            class=""
             src="${iconUrl}"
             alt="weather icon"
             width="40"
