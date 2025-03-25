@@ -1,107 +1,107 @@
 [
   {
-    "companyName": "Brigham Young University",
-    "eventDate": "2025-04-05",
-    "eventTime": "10:00 AM",
-    "eventName": "BYU Innovation Summit",
-    "eventDescription": "A gathering of students and industry leaders to discuss the future of innovation in technology and business."
+    "company": "Brigham Young University",
+    "date": "2025-04-05",
+    "time": "10:00 am",
+    "name": "BYU Innovation Summit",
+    "description": "A gathering of students and industry leaders to discuss the future of innovation in technology and business."
   },
   {
-    "companyName": "Vivint Smart Home",
-    "eventDate": "2025-04-12",
-    "eventTime": "2:00 PM",
-    "eventName": "Smart Home Tech Expo",
-    "eventDescription": "Showcasing the latest in smart home technology with live demos and expert panels."
+    "company": "Vivint Smart Home",
+    "date": "2025-04-12",
+    "time": "2:00 pm",
+    "name": "Smart Home Tech Expo",
+    "description": "Showcasing the latest in smart home technology with live demos and expert panels."
   },
   {
-    "companyName": "Qualtrics",
-    "eventDate": "2025-04-18",
-    "eventTime": "1:00 PM",
-    "eventName": "Customer Experience Workshop",
-    "eventDescription": "Learn from industry experts about how to enhance customer experience using Qualtrics tools."
+    "company": "Qualtrics",
+    "date": "2025-04-18",
+    "time": "1:00 pm",
+    "name": "Customer Experience Workshop",
+    "description": "Learn from industry experts about how to enhance customer experience using Qualtrics tools."
   },
   {
-    "companyName": "Nu Skin Enterprises",
-    "eventDate": "2025-04-25",
-    "eventTime": "6:00 PM",
-    "eventName": "Wellness & Beauty Networking Night",
-    "eventDescription": "An exclusive networking event for entrepreneurs and professionals in the beauty and wellness industry."
+    "company": "Nu Skin Enterprises",
+    "date": "2025-04-25",
+    "time": "6:00 pm",
+    "name": "Wellness & Beauty Networking Night",
+    "description": "An exclusive networking event for entrepreneurs and professionals in the beauty and wellness industry."
   },
   {
-    "companyName": "Action Target",
-    "eventDate": "2025-05-03",
-    "eventTime": "9:00 AM",
-    "eventName": "Firearms Safety & Training Course",
-    "eventDescription": "A hands-on safety training event for responsible firearm usage and self-defense."
+    "company": "Action Target",
+    "date": "2025-05-03",
+    "time": "9:00 am",
+    "name": "Firearms Safety & Training Course",
+    "description": "A hands-on safety training event for responsible firearm usage and self-defense."
   },
   {
-    "companyName": "Ancestry",
-    "eventDate": "2025-05-10",
-    "eventTime": "3:00 PM",
-    "eventName": "Family History Research Workshop",
-    "eventDescription": "A deep dive into genealogy tools and techniques to discover your family's past."
+    "company": "Ancestry",
+    "date": "2025-05-10",
+    "time": "3:00 pm",
+    "name": "Family History Research Workshop",
+    "description": "A deep dive into genealogy tools and techniques to discover your family's past."
   },
   {
-    "companyName": "Revere Health",
-    "eventDate": "2025-05-15",
-    "eventTime": "11:00 AM",
-    "eventName": "Health & Wellness Fair",
-    "eventDescription": "Free health screenings, expert panels, and wellness activities to promote a healthier lifestyle."
+    "company": "Revere Health",
+    "date": "2025-05-15",
+    "time": "11:00 am",
+    "name": "Health & Wellness Fair",
+    "description": "Free health screenings, expert panels, and wellness activities to promote a healthier lifestyle."
   },
   {
-    "companyName": "Utah Community Credit Union",
-    "eventDate": "2025-05-22",
-    "eventTime": "5:30 PM",
-    "eventName": "Financial Literacy Seminar",
-    "eventDescription": "Learn how to manage finances, save money, and plan for the future."
+    "company": "Utah Community Credit Union",
+    "date": "2025-05-22",
+    "time": "5:30 pm",
+    "name": "Financial Literacy Seminar",
+    "description": "Learn how to manage finances, save money, and plan for the future."
   },
   {
-    "companyName": "Bluehost",
-    "eventDate": "2025-05-29",
-    "eventTime": "4:00 PM",
-    "eventName": "Website Building Workshop",
-    "eventDescription": "A hands-on session to help entrepreneurs and businesses set up their own websites using Bluehost services."
+    "company": "Bluehost",
+    "date": "2025-05-29",
+    "time": "4:00 pm",
+    "name": "Website Building Workshop",
+    "description": "A hands-on session to help entrepreneurs and businesses set up their own websites using Bluehost services."
   },
   {
-    "companyName": "CircusTrix",
-    "eventDate": "2025-06-05",
-    "eventTime": "12:00 PM",
-    "eventName": "Extreme Sports Challenge",
-    "eventDescription": "An adrenaline-fueled day of trampoline stunts, obstacle courses, and fun competitions."
+    "company": "CircusTrix",
+    "date": "2025-06-05",
+    "time": "12:00 pm",
+    "name": "Extreme Sports Challenge",
+    "description": "An adrenaline-fueled day of trampoline stunts, obstacle courses, and fun competitions."
   },
   {
-    "companyName": "Angel Studios",
-    "eventDate": "2025-06-12",
-    "eventTime": "7:00 PM",
-    "eventName": "Film Screening & Director Q&A",
-    "eventDescription": "A special screening of an upcoming film, followed by a Q&A with the director."
+    "company": "Angel Studios",
+    "date": "2025-06-12",
+    "time": "7:00 pm",
+    "name": "Film Screening & Director Q&A",
+    "description": "A special screening of an upcoming film, followed by a Q&A with the director."
   },
   {
-    "companyName": "VitalSmarts",
-    "eventDate": "2025-06-19",
-    "eventTime": "10:30 AM",
-    "eventName": "Leadership & Communication Workshop",
-    "eventDescription": "A training session on effective leadership, team management, and professional communication."
+    "company": "VitalSmarts",
+    "date": "2025-06-19",
+    "time": "10:30 am",
+    "name": "Leadership & Communication Workshop",
+    "description": "A training session on effective leadership, team management, and professional communication."
   },
   {
-    "companyName": "Morinda Bioactives",
-    "eventDate": "2025-06-26",
-    "eventTime": "2:00 PM",
-    "eventName": "Holistic Health & Nutrition Seminar",
-    "eventDescription": "Experts share insights on natural health solutions and nutrition for a balanced life."
+    "company": "Morinda Bioactives",
+    "date": "2025-06-26",
+    "time": "2:00 pm",
+    "name": "Holistic Health & Nutrition Seminar",
+    "description": "Experts share insights on natural health solutions and nutrition for a balanced life."
   },
   {
-    "companyName": "North American Arms",
-    "eventDate": "2025-07-03",
-    "eventTime": "1:00 PM",
-    "eventName": "Precision Shooting Competition",
-    "eventDescription": "A competitive shooting event featuring North American Arms firearms and prizes."
+    "company": "North American Arms",
+    "date": "2025-07-03",
+    "time": "1:00 pm",
+    "name": "Precision Shooting Competition",
+    "description": "A competitive shooting event featuring North American Arms firearms and prizes."
   },
   {
-    "companyName": "Frontier Communications",
-    "eventDate": "2025-07-10",
-    "eventTime": "6:00 PM",
-    "eventName": "The Future of Connectivity Conference",
-    "eventDescription": "A discussion on the latest advancements in internet, TV, and telecommunication technologies."
+    "company": "Frontier Communications",
+    "date": "2025-07-10",
+    "time": "6:00 pm",
+    "name": "The Future of Connectivity Conference",
+    "description": "A discussion on the latest advancements in internet, TV, and telecommunication technologies."
   }
 ]
