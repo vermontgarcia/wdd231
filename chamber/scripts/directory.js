@@ -1,5 +1,5 @@
 import ListComponent from './ListComponent.js';
-import { businnessCardTemplate } from './templates.js';
+import { businnessDirectoryTemplate } from './templates.js';
 import { qs } from './utils.js';
 
 // DOM Manipulation
@@ -23,7 +23,7 @@ document.getElementById('icon-btn-list').addEventListener('click', () => {
 //
 const directoryList = new ListComponent(
   qs('#directory-container'),
-  businnessCardTemplate,
+  businnessDirectoryTemplate,
   './data/members.json'
 );
 directoryList.init();
