@@ -1,0 +1,1 @@
+GET https://api.weatherapi.com/v1/forecast.json?days=3&key=39a96f02b1314125884191955250602&q=provo&aqi=yes HTTP/1.1
