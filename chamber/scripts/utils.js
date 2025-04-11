@@ -86,6 +86,19 @@ export const weatherDataMapper = (data) => {
   return { current, forecast };
 };
 
+const getRandomIndex = (max, min = 0) => {
+  return Math.floor(Math.random() * (max - 1 - min)) + min;
+};
+
 export const getTopMembers = (list) => {
-  return list.filter((item) => item.membershipLevel === 3);
+  const TOTAL_CARDS = 3;
+  let newList = [];
+  const vipMembers = list.filter(
+    (item) => item.membershipLevel === 3 || item.membershipLevel === 2
+  );
+  for (let i = 0; i < TOTAL_CARDS; i++) {
+    const index = getRandomIndex(vipMembers.length);
+    newList.push(vipMembers.splice(index, 1)[0]);
+  }
+  return newList;
 };
