@@ -1,0 +1,32 @@
+[
+  {
+    "imgUrl": "images/team-1.webp",
+    "name": "John Doe",
+    "captions": "CEO & Founder",
+    "more": "I’m proud to lead a team that brings cleanliness and comfort to so many people. Watching our clients’ satisfaction fuels my passion for this work."
+  },
+  {
+    "imgUrl": "images/team-2.webp",
+    "name": "Jane Smith",
+    "captions": "Lead Cleaner",
+    "more": "Every day I get to make a difference in someone’s home. The smiles from our clients when they see the results keep me motivated and fulfilled."
+  },
+  {
+    "imgUrl": "images/team-3.webp",
+    "name": "Mike Johnson",
+    "captions": "Project Manager",
+    "more": "I love organizing and overseeing the work that makes homes shine. It’s great to be part of a company that values attention to detail and customer satisfaction."
+  },
+  {
+    "imgUrl": "https://example.com/images/team4.jpg",
+    "name": "Sarah Lee",
+    "captions": "Marketing Director",
+    "more": "I’m excited to spread the word about our fantastic team. Helping people discover the difference we make in their lives is incredibly rewarding."
+  },
+  {
+    "imgUrl": "https://example.com/images/team5.jpg",
+    "name": "Chris Brown",
+    "captions": "Senior Cleaner",
+    "more": "It’s not just about cleaning—it’s about creating spaces where people can relax and thrive. Being part of a team that values this makes me proud every day."
+  }
+]
