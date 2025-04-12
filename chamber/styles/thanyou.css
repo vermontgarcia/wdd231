@@ -24,7 +24,7 @@ section #member-data-container {
   width: fit-content;
   max-width: 35rem;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 1rem;
   background-color: var(--background-color-light);
   margin-bottom: 2rem;
   border-radius: 5px;

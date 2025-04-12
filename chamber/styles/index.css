@@ -194,6 +194,10 @@ header>div {
   }
 }
 
+.thankyou section {
+  padding: 1rem;
+}
+
 /* Footer */
 footer {
   background-color: var(--background-color-dark);
