@@ -1,0 +1,192 @@
+.join-us-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+h1 {
+  margin: 1rem;
+  text-align: center;
+}
+/* Form Styling */
+form {
+  padding: 1rem;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto 1rem;
+  border-radius: 5px;
+}
+
+form fieldset {
+  border: none;
+}
+
+form label,
+form legend,
+form div {
+  display: block;
+  color: var(--deep-sea-blue);
+  font-size: 0.9rem;
+  color: var(--form-labels);
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+form legend label {
+  margin-left: 1rem;
+}
+
+form legend {
+  margin-bottom: -1.5rem;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  background-color: var(--field-background);
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+}
+
+form input[type="radio"] {
+  margin-right: 6px;
+  accent-color: var(--background-color-dark);
+}
+
+form input[type="submit"] {
+  border: none;
+  background-color: var(--background-color-dark);
+  border-radius: 5px;
+  padding: 0.8rem;
+  box-shadow: 1px 1px 4px var(--background-color-dark);
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--submit-button);
+}
+
+form select:required,
+form textarea:required,
+form input:required {
+  border-right: solid 4px var(--not-valid);
+}
+
+form select:required:valid,
+form textarea:required:valid,
+form input:required:valid {
+  border-right: solid 4px var(--valid);
+}
+
+form .required {
+  color: var(--required-asterisc);
+  margin-left: 5px;
+}
+
+form .optional {
+  color: var(--accent-3);
+  margin-left: 5px;
+  font-size: 0.7rem;
+}
+
+/* Membership */
+.membership-section {
+  background-color: var(--field-background);
+  padding: 1rem;
+}
+
+.membership-section h2 {
+  text-align: center;
+}
+
+.levels-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.levels-container .membership-card {
+  border: 1px solid var(--background-color-light);
+  padding: 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white);
+  max-width: 30rem;
+  justify-self: center;
+  width: 100%;
+}
+
+.membership-card:hover {
+  box-shadow: 1px 1px 4px var(--background-color-dark);
+
+}
+
+.membership-card button {
+  background-color: var(--background-color-dark);
+  color: var(--submit-button);
+  padding: 0.75rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px var(--background-color-dark);
+  cursor: pointer;
+}
+
+.membership-card p {
+  flex-grow: 1;
+}
+
+/* Modal */
+dialog {
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 3rem #777;
+  /* Center in View */
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+dialog h2 {
+  padding: 0.75rem;
+  background-color: var(--background-color-dark);
+  color: var(--submit-button);
+}
+
+dialog ul {
+  padding-left: 3rem;
+}
+
+dialog li {
+  list-style: disc;
+  /* padding-left:; */
+}
+
+dialog>div {
+  padding: 1rem;
+  /* Space Between Elements  */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

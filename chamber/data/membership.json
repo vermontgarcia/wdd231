@@ -1,0 +1,26 @@
+[
+  {
+    "id": "np",
+    "name": "NP Membership",
+    "shortDescription": "A simple way to stay connected and support.",
+    "detailedDescription": "<ul><li>Basic newsletter subscription</li><li>Invitations to public events</li><li>Access to our community forum</li></ul><p>This membership is perfect for those who want to stay informed and support without any financial commitment.</p>"
+  },
+  {
+    "id": "bronze",
+    "name": "Bronze Membership",
+    "shortDescription": "Support us and enjoy early access to updates.",
+    "detailedDescription": "<ul><li>Everything in NP Membership</li><li>Early access to news and announcements</li><li>10% discount on event tickets</li></ul><p>Great for casual supporters who want a few extra perks.</p>"
+  },
+  {
+    "id": "silver",
+    "name": "Silver Membership",
+    "shortDescription": "Enjoy exclusive content and priority support.",
+    "detailedDescription": "<ul><li>Everything in Bronze Membership</li><li>Access to members-only content</li><li>Priority email support</li><li>Exclusive webinars</li></ul><p>Ideal for those who want to be part of the inner circle and receive enhanced benefits.</p>"
+  },
+  {
+    "id": "gold",
+    "name": "Gold Membership",
+    "shortDescription": "All-inclusive access with VIP treatment.",
+    "detailedDescription": "<ul><li>Everything in Silver Membership</li><li>VIP invitations to private events</li><li>1-on-1 consultation or mentorship sessions</li><li>Special recognition on our platform</li></ul><p>The ultimate membership for those who want to make a meaningful impact and enjoy full access.</p>"
+  }
+]

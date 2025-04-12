@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join | Provo Chamber of Commerce</title>
+    <meta name="author" content="Vermont Garcia" />
+    <meta
+      name="description"
+      content="Chamber of Commerce - WDD231 Web Frontend Development I"
+    />
+    <meta property="og:title" content="Provo Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Discover resources, events, networking, and business directories with the Provo Chamber of Commerce. Support local businesses, connect, and grow with us! #ProvoBusiness #ShopLocal"
+    />
+    <meta
+      property="og:url"
+      content="https://vermontgarcia.github.io/wdd231/chamber/directory.html"
+    />
+    <meta
+      property="og:image"
+      content="https://vermontgarcia.github.io/wdd231/chamber/images/site/hero-medium.webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="icon" href="images/site/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/join.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/layout.js" type="module"></script>
+    <script type="module" src="scripts/join.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="logo-container">
+          <img
+            src="images/site/logo.svg"
+            alt="Provo Chamber of Commerce Logo"
+            width="64"
+            height="64"
+          />
+          <div class="logo-name-container">
+            <p>Provo</p>
+            <p>Chamber Of Commerce</p>
+          </div>
+        </div>
+        <div class="menu-btn">
+          <a id="menu-btn" role="button" class="menu-icon">
+            <i id="menu-icon" class="material-icons">menu</i>
+          </a>
+        </div>
+      </div>
+      <nav class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a class="active" href="join.html">Join</a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <picture>
+          <source
+            media="(min-width: 1000px)"
+            srcset="images/site/hero-large.webp"
+          />
+          <source
+            media="(min-width: 500px)"
+            srcset="images/site/hero-medium.webp"
+          />
+          <img
+            src="images/site/hero-small.webp"
+            alt="Chamber of Commerce"
+            width="500"
+            height="313"
+          />
+        </picture>
+        <div class="call-to-action">Keynote Tickets</div>
+      </div>
+      <!-- Home Page Content -->
+      <div class="join-us-main">
+        <section>
+          <h1>Join Us</h1>
+          <form action="thankyou.html" method="get">
+            <fieldset>
+              <label
+                >First Name<span class="required">*</span>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  required
+                  autocomplete="given-name"
+                  title="First name"
+                />
+              </label>
+              <label
+                >Last Name<span class="required">*</span>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  required
+                  autocomplete="family-name"
+                  title="Last name"
+                />
+              </label>
+              <label
+                >Your Title<span class="required">*</span>
+                <input
+                  type="text"
+                  name="organization-title"
+                  id="organization-title"
+                  required
+                  autocomplete="organization-title"
+                  pattern="^[A-Za-z\-\s]{7,}$"
+                  title="Only letters, hyphens, and spaces. Minimum 7 characters."
+                />
+              </label>
+              <label
+                >Your Email<span class="required">*</span>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  required
+                  autocomplete="email"
+                  title="Email"
+                />
+              </label>
+              <label
+                >Mobile Phone<span class="required">*</span>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  required
+                  autocomplete="mobile"
+                  title="Mobile phone number"
+                />
+              </label>
+              <label
+                >Organization's Name<span class="required">*</span>
+                <input
+                  type="text"
+                  name="organi"
+                  id="organization"
+                  required
+                  autocomplete="organization-title"
+                  pattern="^[A-Za-z\-\s]{7,}$"
+                  title="Only letters, hyphens, and spaces. Minimum 7 characters."
+                />
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>
+                Membership Type<span class="required">*</span>
+                <label>
+                  <input type="radio" name="membership" value="np" required />
+                  Non Profit
+                </label>
+                <label>
+                  <input type="radio" name="membership" value="bronze" />
+                  Bronze
+                </label>
+                <label>
+                  <input type="radio" name="membership" value="silver" />
+                  Silver
+                </label>
+                <label>
+                  <input type="radio" name="membership" value="gold" />
+                  Gold
+                </label>
+              </legend>
+            </fieldset>
+            <fieldset>
+              <label
+                >Organization Description<span class="required">*</span>
+                <textarea
+                  name="description"
+                  id="description"
+                  title="Organization/Bussines Description"
+                  rows="5"
+                  required
+                ></textarea>
+              </label>
+            </fieldset>
+            <fieldset>
+              <input
+                id="submit-btn"
+                type="submit"
+                role="button"
+                class="button"
+                value="Join Now"
+              />
+            </fieldset>
+          </form>
+        </section>
+        <section class="membership-section">
+          <h2>Membership Levels</h2>
+          <div id="levels-container" class="levels-container"></div>
+          <dialog id="membership-details"></dialog>
+        </section>
+      </div>
+      <!-- -->
+    </main>
+    <footer class="footer">
+      <div>
+        <p><strong>Provo Chamber of Commerce</strong></p>
+        <p>University Av</p>
+        <p>Provo, Utah</p>
+        <p>info@provochamber.org</p>
+        <p>(000)999-9999</p>
+      </div>
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank">
+          <img
+            src="images/site/facebook.svg"
+            alt="facebook-icon"
+            width="32"
+            height="32"
+          />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img
+            src="images/site/twitter.svg"
+            alt="twitter-icon"
+            width="32"
+            height="32"
+          />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img
+            src="images/site/instagram.svg"
+            alt="instagram-icon"
+            width="32"
+            height="32"
+          />
+        </a>
+      </div>
+      <div>
+        <p>WDD231 Class Project</p>
+        <p>Vermont Garcia</p>
+        <p class="copyright">
+          © <span id="current-year"></span> Provo Chamber of Commerce
+        </p>
+        <p id="last-modified"></p>
+      </div>
+    </footer>
+  </body>
+</html>

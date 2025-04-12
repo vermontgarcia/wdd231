@@ -1,31 +1,5 @@
 h1 {
   margin: 0 1rem;
-
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.hero picture {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.call-to-action {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  align-self: flex-end;
-  justify-self: end;
-  background-color: orange;
-  padding: 0.75rem;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
-  position: relative;
-  bottom: 15%;
-  right: 8%;
 }
 
 section {

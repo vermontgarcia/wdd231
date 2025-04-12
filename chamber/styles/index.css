@@ -14,6 +14,43 @@
   /* colors for svg */
   --svg-primary: invert(100%) sepia(0%) saturate(232%) hue-rotate(50deg) brightness(113%) contrast(90%);
   --svg-accent-2: invert(36%) sepia(6%) saturate(3647%) hue-rotate(130deg) brightness(101%) contrast(80%);
+  /* Form */
+  --not-valid: #990000;
+  --valid: #008000;
+  --required-asterisc: #990000;
+  --field-background: #E2E8EB;
+  --form-labels: #000000;
+  --submit-button: #E2E8EB;
+  }
+
+:root {
+  /* Variables Declaration */
+  --text-color: #000000;
+  /* Primary Colors */
+  --deep-sea-blue: #03587B;
+  --fountain-blue: #5BB4C3;
+  --mercury: #E2E8EB;
+  --white: #FFFFFF;
+  /* Secondary Colors */
+  --aqua-green: #6FCF97;
+  --sky-blue: #56CCF2;
+  --sunlight-yellow: #F2C94C;
+  --soft-grey: #E0E0E0;
+  /* Reviews */
+  --stars: #FFA500;
+  /* Form */
+  --required-asterisc: #990000;
+  /* Font Sizes */
+  --headding: 40px;
+  --sub-headding: 35px;
+  --title: 24px;
+  --label: 18px;
+  --body: 14px;
+  --button: 18px;
+  --copyrigth: 10px;
+  --copyrigth-small: 10px;
+  --ham-menu: 60px;
+  --ham-menu-show: 40px;
 }
 
 body {
@@ -32,6 +69,32 @@ main {
   width: 100%;
   height: auto;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hero picture {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.call-to-action {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: flex-end;
+  justify-self: end;
+  background-color: orange;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  position: relative;
+  bottom: 15%;
+  right: 8%;
+}
+
 
 a {
   text-decoration: none;
