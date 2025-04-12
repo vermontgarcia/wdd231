@@ -25,6 +25,8 @@
 }
 
 /* Typography */
+p,
+li,
 .poppins-regular {
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -41,13 +43,15 @@
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
+  color: var(--deep-sea-blue);
 }
 
 .poppins-bold {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-}
+  color: var(--deep-sea-blue);
+  }
 
 .heading-size {
   font-size: var(--headding);
@@ -76,7 +80,7 @@
 }
 /* Element Selectors */
 
-main {
+section {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -100,7 +104,6 @@ h4 {
 
 body {
   font-size: var(--body);
-  padding: 1rem;
 }
 
 a {
@@ -206,19 +209,35 @@ p {
 
 .iconography-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* max-width: 50%; */
   margin: 0 auto;
 }
 
 .wireframe-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .wireframe-container img {
   margin: 1rem;
+  max-width: 90%;;
   height: fit-content;
+}
+
+main {
+  background-color: var(--mercury);
+}
+
+@media screen and (min-width: 800px) {
+
+  .iconography-wrapper {
+    flex-direction: row;
+  }
+
+  .wireframe-container {
+    flex-direction: row;
+  }
 }
