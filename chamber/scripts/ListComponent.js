@@ -26,11 +26,13 @@ export default class ListComponent {
       parentElement.innerHTML = '';
     }
     const htmlStrins = list.map(template);
-    parentElement.insertAdjacentHTML('afterBegin', htmlStrins.join(''));
+    parentElement.insertAdjacentHTML('beforeend', htmlStrins.join(''));
   }
 
   async init() {
-    const data = await this.getData(this.dataMapper);
-    this.renderList(data, this.parentElement, this.template);
+    if (this.dataUrl) {
+      this.data = await this.getData(this.dataMapper);
+    }
+    this.renderList(this.data, this.parentElement, this.template);
   }
 }

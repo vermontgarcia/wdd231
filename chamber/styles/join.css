@@ -41,6 +41,7 @@ form legend {
 }
 
 form input[type="text"],
+form input[type="datetime-local"],
 form select,
 form textarea {
   background-color: var(--field-background);
@@ -189,4 +190,8 @@ dialog button {
   padding: 0.25rem 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }

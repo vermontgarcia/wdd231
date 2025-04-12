@@ -83,12 +83,16 @@
         </picture>
         <div class="call-to-action">Keynote Tickets</div>
       </div>
-      <!-- Home Page Content -->
+      <!-- Join Page Content -->
       <div class="join-us-main">
         <section>
           <h1>Join Us</h1>
           <form action="thankyou.html" method="get">
             <fieldset>
+              <label class="hidden"
+                >Timestamp<span class="required">*</span>
+                <input type="datetime-local" name="timestamp" id="timestamp" />
+              </label>
               <label
                 >First Name<span class="required">*</span>
                 <input
@@ -115,7 +119,7 @@
                 >Your Title<span class="required">*</span>
                 <input
                   type="text"
-                  name="organization-title"
+                  name="organizationTitle"
                   id="organization-title"
                   required
                   autocomplete="organization-title"
@@ -149,10 +153,10 @@
                 >Organization's Name<span class="required">*</span>
                 <input
                   type="text"
-                  name="organi"
+                  name="organization"
                   id="organization"
                   required
-                  autocomplete="organization-title"
+                  autocomplete="organization"
                   pattern="^[A-Za-z\-\s]{7,}$"
                   title="Only letters, hyphens, and spaces. Minimum 7 characters."
                 />
@@ -162,19 +166,24 @@
               <legend>
                 Membership Type<span class="required">*</span>
                 <label>
-                  <input type="radio" name="membership" value="np" required />
+                  <input
+                    type="radio"
+                    name="membership"
+                    value="Non Profit"
+                    required
+                  />
                   Non Profit
                 </label>
                 <label>
-                  <input type="radio" name="membership" value="bronze" />
+                  <input type="radio" name="membership" value="Bronze" />
                   Bronze
                 </label>
                 <label>
-                  <input type="radio" name="membership" value="silver" />
+                  <input type="radio" name="membership" value="Silver" />
                   Silver
                 </label>
                 <label>
-                  <input type="radio" name="membership" value="gold" />
+                  <input type="radio" name="membership" value="Gold" />
                   Gold
                 </label>
               </legend>

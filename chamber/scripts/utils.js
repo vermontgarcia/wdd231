@@ -102,3 +102,102 @@ export const getTopMembers = (list) => {
   }
   return newList;
 };
+
+export const showModal = ({ name, detailedDescription }) => {
+  const modal = qs('#membership-details');
+  modal.innerHTML = `
+    <button id="close-modal">X</button>
+    <h2>${name}</h2>
+    <div>
+      ${detailedDescription}
+    </div>
+  `;
+  modal.showModal();
+  document.getElementById('close-modal').addEventListener('click', () => {
+    modal.close();
+  });
+};
+
+export const addMembershipDetails = async (list) => {
+  const data = await list.getData(list.dataMapper);
+  document.querySelectorAll('.view-details-btn').forEach((button) => {
+    button.addEventListener('click', (el) => {
+      const id = el.currentTarget.dataset.id;
+      const membership = data.find((level) => level.id === id);
+      console.log(membership);
+      showModal(membership);
+    });
+  });
+};
+
+export const getDataMemberRows = (params) => {
+  const timestamp = params.get('timestamp');
+  const fname = params.get('fname');
+  const lname = params.get('lname');
+  const organizationTitle = params.get('organizationTitle');
+  const email = params.get('email');
+  const phone = params.get('phone');
+  const organization = params.get('organization');
+  const membership = params.get('membership');
+  const description = params.get('description');
+
+  timeToHuman(timestamp);
+  return [
+    {
+      name: 'Date',
+      data: timeToHuman(timestamp),
+    },
+    {
+      name: 'Name',
+      data: `${fname} ${lname}`,
+    },
+    {
+      name: 'Position',
+      data: `${organizationTitle}`,
+    },
+    {
+      name: 'Email',
+      data: `${email}`,
+    },
+    {
+      name: 'Phone',
+      data: `${phone}`,
+    },
+    {
+      name: 'Organization',
+      data: `${organization}`,
+    },
+    {
+      name: 'Organization Details',
+      data: `${description}`,
+    },
+    {
+      name: 'Membership Level',
+      data: `${membership}`,
+    },
+  ];
+};
+
+export const setTimestamp = (el) => {
+  const now = new Date();
+  const pad = (num) => num.toString().padStart(2, '0');
+  const y = now.getFullYear();
+  const m = pad(now.getMonth() + 1);
+  const d = pad(now.getDate());
+  const h = pad(now.getHours());
+  const min = pad(now.getMinutes());
+  el.value = `${y}-${m}-${d}T${h}:${min}`;
+};
+
+export const timeToHuman = (timestamp) => {
+  const date = new Date(timestamp);
+  const options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    hour12: true,
+  };
+  return date.toLocaleDateString('en-US', options);
+};

@@ -136,3 +136,9 @@ export const membershipTemplate = ({ name, shortDescription, id }) => {
     </div>
   `;
 };
+
+export const thankyouTemplate = ({ paragraph }) => paragraph;
+
+export const membershipRowTemplate = ({ name, data }) => `
+  <p><strong>${name}:</strong> ${data}</p>
+`;
