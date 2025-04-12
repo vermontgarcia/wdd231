@@ -129,7 +129,7 @@ export const eventsTemplate = (event) => {
 
 export const membershipTemplate = ({ name, shortDescription, id }) => {
   return `
-    <div class="membership-card">
+    <div class="membership-card ${id}">
       <h2>${name}</h2>
       <p>${shortDescription}</p>
       <button class="view-details-btn" data-id="${id}">Learn More</button>

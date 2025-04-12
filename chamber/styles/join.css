@@ -196,3 +196,32 @@ dialog button {
 .hidden {
   display: none;
 }
+
+.membership-card.np {
+  opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.membership-card.bronze {
+  opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 150ms;
+}
+
+.membership-card.silver {
+  opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 300ms;
+}
+
+.membership-card.gold {
+  opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 450ms;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }  
+}
