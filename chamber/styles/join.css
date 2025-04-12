@@ -42,7 +42,7 @@ form legend {
 
 form input[type="text"],
 form input[type="email"],
-form input[type="telephone"],
+form input[type="tel"],
 form select,
 form textarea {
   background-color: var(--field-background);
