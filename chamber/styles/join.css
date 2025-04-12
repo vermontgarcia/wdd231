@@ -41,7 +41,8 @@ form legend {
 }
 
 form input[type="text"],
-form input[type="datetime-local"],
+form input[type="email"],
+form input[type="telephone"],
 form select,
 form textarea {
   background-color: var(--field-background);
