@@ -53,7 +53,7 @@ header>div {
   justify-content: space-between;
   align-items: flex-end;
   gap: 0.5rem;
-  padding-bottom: 1rem;
+  padding:  0.75rem;
 }
 
 .logo-container {
@@ -67,7 +67,7 @@ header>div {
   background-color: var(--deep-sea-blue);
   padding: 0.75rem;
   color: var(--mercury);
-  font-size: var(--button);
+  font-size: var(--body);
   border-radius: 5px;
   cursor: pointer;
 }
