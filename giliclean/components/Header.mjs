@@ -24,6 +24,7 @@ export default class Header {
           alt="Gili Clean Logo"
           width="100"
           height="71"
+          loading="eager"
         />
       </div>
       <a href="contact.html" class="contact-phone">(801)259-4138</a>
