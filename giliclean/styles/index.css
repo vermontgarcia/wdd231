@@ -58,7 +58,7 @@ header>div {
 
 .logo-container {
   display: flex;
-  margin: 1rem 1rem 0;
+  margin: 1rem 0 0 1rem;
   flex-direction: row;
   align-items: flex-end;
 }
@@ -67,7 +67,7 @@ header>div {
   background-color: var(--deep-sea-blue);
   padding: 0.75rem;
   color: var(--mercury);
-  font-size: var(--body);
+  font-size: var(--button);
   border-radius: 5px;
   cursor: pointer;
 }
