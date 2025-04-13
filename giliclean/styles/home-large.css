@@ -1,0 +1,71 @@
+@media screen and (min-width: 600px) {
+  .menu{
+    height: 3rem;
+  }
+
+  header nav {
+    margin-right: 1rem;
+  }
+
+  header .menu a {
+    width: 10rem;
+  }
+
+  .menu a.active {
+    background-color: var(--white);
+    color: var(--deep-sea-blue);
+    border-bottom: 3px solid;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  header .contact-phone {
+    margin-right: 1rem;
+  }
+  
+  header .menu-btn {
+    display: none;
+  }
+
+  header .menu {
+    width: 100%;
+  }
+  header .menu a {
+    width: 100%;
+  }
+
+  header .logo-container img {
+    width: 150px;
+    height: auto;
+  }
+
+  header .contact-phone {
+    font-size: var(--label);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 3rem;
+  }
+
+  header nav {
+    place-self: end;
+    margin-bottom: 1rem;
+  }
+
+  header>div {
+    justify-content: unset;
+    gap: 3rem;
+    margin-left: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 1900px) {
+}
