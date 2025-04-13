@@ -15,3 +15,7 @@ export const parseJson = (res) => {
     throw new Error('Bad Response');
   }
 };
+
+export const qs = (selector) => {
+  return document.querySelector(selector);
+};
