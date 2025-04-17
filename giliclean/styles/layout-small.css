@@ -1,0 +1,424 @@
+/* Header */
+
+/* .header-title {
+  font-size: 2.5rem;
+  padding: 1rem;
+  display: none;
+}
+
+.header-title.show {
+  display: flex;
+} */
+
+/* Navigation */
+
+/* .navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation #menu-large a {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  flex: 1 1 100%;
+  text-align: center;
+  font-weight: bold;
+  color: var(--accent-1);
+  height: 100%;
+}
+
+.navigation #menu-large {
+  display: none;
+}
+
+.navigation.show {
+  flex-direction: column;
+  width: 100%;
+} */
+
+/* Menu */
+
+/* #menu-large a:hover {
+  background-color: var(--mercury);
+  color: var(--deep-sea-blue);
+}
+
+#menu.show::before {
+  content: "x";
+  width: 100%;
+  text-align: end;
+  padding-right: 1rem;
+}
+
+#menu {
+  width: 2rem;
+}
+
+#menu::before {
+  content: "≡";
+  color: var(--mercury);
+}
+
+#menu:hover:before {
+  color: var(--deep-sea-blue);
+}
+
+#ham-menu {
+  font-size: var(--ham-menu);
+  width: 4rem;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+#ham-menu.show {
+  font-size: var(--ham-menu-show);
+}
+
+#ham-menu:hover {
+  color: var(--deep-sea-blue);
+  background-color: var(--mercury);
+  cursor: pointer;
+}
+
+#menu-large.show {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#ham-menu.show,
+#menu.show {
+  width: 100%;
+} */
+
+
+/*********************** Home Page ***********************/
+
+/* Header */
+
+/* #header-title img {
+  margin-top: 1rem;
+  width: 200px;
+  height: auto;
+} */
+
+/* Hero */
+
+.hero picture img {
+  width: 100%;
+  height: auto;
+}
+
+/* Main Section */
+
+
+/* Services Section */
+
+section .cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+#reviews .cards-container img {
+  border-radius: 50%;
+}
+
+/* Reviews Section */
+
+/* Rating Stars Styles */
+
+#reviews .container p {
+  margin-top: 2rem;
+}
+
+/* #reviews .card {
+  width: 100%;
+} */
+
+.stars {
+  display: flex;
+  width: 100px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 5px;
+  position: relative;
+}
+
+.stars input[type="radio"] {
+  display: none;
+}
+
+.stars input[type="radio"]:required {
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+.stars>label {
+  width: 1rem;
+  height: 0;
+  font-family: Arial;
+  font-size: 2rem;
+  transition: 0.2s ease;
+  color: var(--stars);
+}
+
+
+.stars label:active::before {
+  transform: scale(1.1);
+}
+
+.stars label::before {
+  content: '\2606';
+  position: absolute;
+  top: 0px;
+  line-height: 26px;
+}
+
+/* set full star shape for checked label and those that come after it */
+.stars input:checked~label:before {
+  content: '\2605';
+}
+
+@-moz-document url-prefix() {
+  .stars input:checked~label:before {
+    font-size: 36px;
+    line-height: 21px;
+  }
+}
+
+/* Service Area Section */
+
+#service-area .container .wrapper div {
+  margin: 1rem;
+}
+
+#service-area .container .wrapper div:first-child {
+  border: 1px solid var(--soft-grey);
+  padding: 1rem;
+}
+
+#service-area .container h3 {
+  margin: 1rem;
+  text-align: center;
+}
+
+#service-area .container li {
+  font-size: var(--label);
+  text-align: center;
+}
+
+#service-area .container>div>div>iframe {
+  width: 100%;
+  padding: 0;
+  border: unset;
+}
+
+
+/* Join Our Team Section */
+
+.card-flat {
+  /* width: 90%; */
+  border: 1px solid var(--soft-grey);
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.card-flat img {
+  width: 100%;
+}
+
+.card-flat div {
+  padding: 1rem;
+}
+
+
+/* Footer */
+
+.footer .links {
+  font-size: var(--body);
+  margin-bottom: 1rem;
+}
+
+.footer .links a {
+  padding: 0 1rem;
+  border-right: 1px solid var(--mercury);
+}
+
+.footer .links a:last-child {
+  border: unset;
+}
+
+.footer img {
+  margin-top: 1rem;
+  width: 80px;
+  height: auto;
+}
+
+.copyright {
+  font-size: var(--copyrigth);
+}
+
+.copyright-small {
+  margin-top: 0.5rem;
+  font-size: var(--copyrigth-small);
+}
+
+
+/*********************** About Us Page ***********************/
+
+
+/*********************** Services Page ***********************/
+
+
+/*********************** Contact Page ***********************/
+
+/* Form Styling */
+
+.contact-form {
+  padding: 1rem;
+  max-width: 550px;
+  width: 100%;
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+
+.contact-form fieldset {
+  border: none;
+  padding-top: 1rem;
+}
+
+.contact-form label,
+.contact-form div {
+  display: block;
+  color: var(--deep-sea-blue);
+  font-size: 0.9rem;
+  color: var(--form-labels);
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+.contact-form label:first-child {
+  padding-top: 0;
+}
+
+.contact-form input[type="text"],
+.contact-form select,
+.contact-form textarea {
+  background-color: var(--mercury);
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form .topic input[type="radio"] {
+  margin-right: 6px;
+}
+
+.contact-form input[type="submit"] {
+  border: none;
+  background-color: var(--deep-sea-blue);
+  border-radius: 5px;
+  padding: 0.8rem;
+  box-shadow: 1px 1px 4px var(--mercury);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-form select:required,
+.contact-form textarea:required,
+.contact-form input:required {
+  border-right: solid 4px var(--required-asterisc);
+}
+
+.contact-form select:required:valid,
+.contact-form textarea:required:valid,
+.contact-form input:required:valid {
+  border-right: solid 4px green;
+}
+
+.contact-form .required {
+  color: var(--required-asterisc);
+  margin-left: 5px;
+}
+
+.contact-form .optional {
+  color: var(--accent-3);
+  margin-left: 5px;
+  font-size: 0.7rem;
+}
+
+/* .contact-form .stars-form, */
+/* Rating Stars Styles */
+.contact-form .stars-form {
+  display: flex;
+  width: 180px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 5px;
+  position: relative;
+}
+
+.contact-form .stars-form input[type="radio"] {
+  appearance: none;
+  width: 12px;
+}
+
+.contact-form .stars-form input[type="radio"]:required {
+  border: 0;
+}
+
+.contact-form .stars-form>label {
+  width: 2.5rem;
+  height: 0;
+  font-family: Arial;
+  font-size: 2.5rem;
+  transition: 0.2s ease;
+  color: var(--stars);
+}
+
+.contact-form .stars-form label:hover {
+  cursor: pointer;
+  color: var(--sunlight-yellow);
+  transition: 0.2s ease;
+}
+
+.contact-form .stars-form label:active::before {
+  transform: scale(1.1);
+}
+
+.contact-form .stars-form label::before {
+  content: '\2606';
+  position: absolute;
+  top: 0px;
+  line-height: 26px;
+}
+
+/* set full star shape for checked label and those that come after it */
+.contact-form .stars-form input:checked~label:before {
+  content: '\2605';
+}
+
+@-moz-document url-prefix() {
+  .contact-form .stars-form input:checked~label:before {
+    font-size: 36px;
+    line-height: 21px;
+  }
+}
+
+.stars-reviews.hidden {
+  display: none;
+}
