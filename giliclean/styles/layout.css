@@ -37,7 +37,7 @@
 }
 
 /* Header Styles Start */
-header a {
+a {
   text-decoration: none;
   font-size: var(--title);
 }
@@ -339,3 +339,17 @@ footer .links a:last-child {
 
 
 /* Footer Styles End */
+
+/* Animations */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

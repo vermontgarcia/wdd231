@@ -19,13 +19,15 @@ export default class Header {
     this.container.innerHTML = `
       <div>
       <div class="logo-container">
-        <img
-          src="images/logo-new.svg"
-          alt="Gili Clean Logo"
-          width="100"
-          height="71"
-          loading="eager"
-        />
+        <a href="index.html">
+          <img
+            src="images/logo-new.svg"
+            alt="Gili Clean Logo"
+            width="100"
+            height="71"
+            loading="eager"
+          />
+        </a>
       </div>
       <a href="contact.html" class="contact-phone">(801)259-4138</a>
       <div class="menu-btn">

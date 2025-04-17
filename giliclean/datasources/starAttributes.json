@@ -1,0 +1,32 @@
+[
+  {
+    "type": "radio",
+    "id": "fivestar",
+    "name": "stars",
+    "value": "5"
+  },
+  {
+    "type": "radio",
+    "id": "fourstar",
+    "name": "stars",
+    "value": "4"
+  },
+  {
+    "type": "radio",
+    "id": "threestar",
+    "name": "stars",
+    "value": "3"
+  },
+  {
+    "type": "radio",
+    "id": "twostar",
+    "name": "stars",
+    "value": "2"
+  },
+  {
+    "type": "radio",
+    "id": "onestar",
+    "name": "stars",
+    "value": "1"
+  }
+]
