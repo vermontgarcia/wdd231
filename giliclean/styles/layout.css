@@ -34,6 +34,7 @@
   --copyrigth-small: 18px;
   --ham-menu: 60px;
   --ham-menu-show: 25px;
+  --contact-phone: 14px;
 }
 
 /* Header Styles Start */
@@ -68,7 +69,7 @@ header>div {
   background-color: var(--deep-sea-blue);
   padding: 0.75rem;
   color: var(--mercury);
-  font-size: var(--button);
+  font-size: var(--contact-phone);
   border-radius: 5px;
   cursor: pointer;
 }
