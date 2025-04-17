@@ -187,3 +187,48 @@ export const addAllServices = (ourServices) => {
   });
   servicesAllPageSection.append(cardsContainer);
 };
+
+export const addAboutUs = (aboutUsSpeach) => {
+  const aboutUsContainer = document.getElementById('about-us-container');
+  aboutUsSpeach.content.forEach((about) => {
+    const aboutP = document.createElement('p');
+    aboutP.innerHTML = about;
+    aboutUsContainer.appendChild(aboutP);
+  });
+};
+
+export const addOurStory = (ourStorySpeach) => {
+  const ourStoryContainer = document.getElementById('our-story-container');
+  ourStorySpeach.content.forEach((story) => {
+    const storyP = document.createElement('p');
+    storyP.innerHTML = story;
+    ourStoryContainer.appendChild(storyP);
+  });
+};
+
+export const addOurMission = (ourMissionSpeach) => {
+  const ourMissionContainer = document.getElementById('our-mission-container');
+  ourMissionSpeach.content.forEach((mission) => {
+    const missionP = document.createElement('p');
+    missionP.innerHTML = mission;
+    ourMissionContainer.appendChild(missionP);
+  });
+};
+
+export const addOurValues = (ourValuesSpeach) => {
+  const ourValuesContainer = document.getElementById('our-values-container');
+  ourValuesSpeach.content.forEach((value) => {
+    const valuesP = document.createElement('p');
+    valuesP.innerHTML = value;
+    ourValuesContainer.appendChild(valuesP);
+  });
+};
+
+export const addWhyChooseUs = (whyChooseUsSpeach) => {
+  const whyChooseUsContainer = document.getElementById('why-choose-us');
+  whyChooseUsSpeach.content.forEach((reason) => {
+    const reasonsP = document.createElement('p');
+    reasonsP.innerHTML = reason;
+    whyChooseUsContainer.appendChild(reasonsP);
+  });
+};

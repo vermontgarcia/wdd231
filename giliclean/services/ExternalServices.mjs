@@ -44,4 +44,13 @@ export default class ExternalServices {
       console.error('getReviews error: ', error);
     }
   }
+
+  async getAboutUs() {
+    try {
+      const response = await fetch(`${this.baseURL}/about-us.json`);
+      return await convertToJson(response);
+    } catch (error) {
+      console.error('getServices error: ', error);
+    }
+  }
 }

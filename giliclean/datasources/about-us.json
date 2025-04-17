@@ -1,4 +1,11 @@
 {
+  "aboutUsSpeach": {
+    "title": "About Us",
+    "content": [
+      "At <strong>Gili Clean</strong>, we believe that a clean environment is key to a happy, healthy life. Our company was founded with the simple yet powerful mission of providing top-notch cleaning services that not only transform homes and offices but also give our clients the gift of time. We understand that life is busy, and we’re here to ensure that cleaning doesn’t add to the stress—it’s our job to handle the mess, so you can focus on what matters most.",
+      "<span>Our Motto</span> <strong>\"Gili Clean – More Time for You, A Cleaner Home for Life.\"</strong>"
+    ]
+  },
   "ourStorySpeach": {
     "title": "Our Story",
     "content": [
