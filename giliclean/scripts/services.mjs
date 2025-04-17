@@ -1,8 +1,8 @@
 import Header from '../components/Header.mjs';
 import ExternalServices from '../services/ExternalServices.mjs';
-import { qs } from './helpers/utils.mjs';
-import { services } from './helpers/consts.mjs';
-import { addAllServices } from './helpers/templates.mjs';
+import { qs } from '../helpers/utils.mjs';
+import { services } from '../helpers/consts.mjs';
+import { addAllServices } from '../helpers/templates.mjs';
 
 const container = qs('header');
 const header = new Header({ wayfinding: services, container });

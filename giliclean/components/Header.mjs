@@ -1,9 +1,4 @@
-import {
-  aboutUs,
-  contact,
-  home,
-  services,
-} from '../scripts/helpers/consts.mjs';
+import { aboutUs, contact, home, services } from '../helpers/consts.mjs';
 
 export default class Header {
   constructor({ wayfinding, container, clearContainer = false }) {

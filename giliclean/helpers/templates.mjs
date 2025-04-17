@@ -74,6 +74,7 @@ export const addReviews = ({ reviews, inputStartAttributes }) => {
       avatarImg.setAttribute('alt', `${user} - avatar image`);
       avatarImg.setAttribute('width', 64);
       avatarImg.setAttribute('height', 64);
+      avatarImg.setAttribute('loading', 'lazy');
 
       const userDataDiv = document.createElement('div');
       const nameDiv = document.createElement('div');
@@ -153,6 +154,8 @@ export const addTeam = (teamMembers) => {
 
     teamMemberPicture.setAttribute('src', imgUrl);
     teamMemberPicture.setAttribute('alt', `${name} picture`);
+    teamMemberPicture.setAttribute('loading', 'lazy');
+
     captionsP.innerHTML = `<strong class="member-name">${name}</strong> - <span class="member-captions">${captions}</span>: `;
     moreP.innerHTML = more;
 

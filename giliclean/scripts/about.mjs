@@ -1,14 +1,14 @@
 import Header from '../components/Header.mjs';
 import ExternalServices from '../services/ExternalServices.mjs';
-import { aboutUs } from './helpers/consts.mjs';
+import { aboutUs } from '../helpers/consts.mjs';
 import {
   addAboutUs,
   addOurMission,
   addOurStory,
   addOurValues,
   addWhyChooseUs,
-} from './helpers/templates.mjs';
-import { qs } from './helpers/utils.mjs';
+} from '../helpers/templates.mjs';
+import { qs } from '../helpers/utils.mjs';
 
 const container = qs('header');
 const header = new Header({ wayfinding: aboutUs, container });

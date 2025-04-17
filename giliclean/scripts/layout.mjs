@@ -1,6 +1,6 @@
 import Footer from '../components/Footer.mjs';
-import { getLastUpdate, getYear } from './helpers/utils.mjs';
-import { qs } from './helpers/utils.mjs';
+import { getLastUpdate, getYear } from '../helpers/utils.mjs';
+import { qs } from '../helpers/utils.mjs';
 
 const footerContainer = qs('footer');
 const footer = new Footer({ container: footerContainer });

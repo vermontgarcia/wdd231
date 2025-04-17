@@ -37,7 +37,8 @@
 }
 
 /* Header Styles Start */
-a {
+main a,
+header a {
   text-decoration: none;
   font-size: var(--title);
 }
