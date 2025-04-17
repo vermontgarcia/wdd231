@@ -334,6 +334,10 @@ footer .links a {
   border-right: 1px solid var(--deep-sea-blue);
 }
 
+footer .links a:visited {
+  color: var(--deep-sea-blue);
+}
+
 footer .links a:last-child {
   border: unset;
 }
