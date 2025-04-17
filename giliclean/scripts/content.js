@@ -30,7 +30,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Alice Johnson',
-    // imgUrl: "https://example.com/images/alice.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-20',
     stars: 5,
@@ -40,7 +39,6 @@ export const reviews = [
   {
     id: '100',
     user: 'John Doe',
-    // imgUrl: "https://example.com/images/john.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-19',
     stars: 4,
@@ -50,7 +48,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Sarah Lee',
-    // imgUrl: "https://example.com/images/sarah.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-18',
     stars: 5,
@@ -60,7 +57,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Mark Smith',
-    // imgUrl: "https://example.com/images/mark.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-17',
     stars: 5,
@@ -70,7 +66,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Emily Davis',
-    // imgUrl: "https://example.com/images/emily.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-16',
     stars: 4,
@@ -80,7 +75,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Chris Brown',
-    // imgUrl: "https://example.com/images/chris.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-15',
     stars: 5,
@@ -90,7 +84,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Jessica Taylor',
-    // imgUrl: "https://example.com/images/jessica.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-14',
     stars: 5,
@@ -100,7 +93,6 @@ export const reviews = [
   {
     id: '100',
     user: 'David Williams',
-    // imgUrl: "https://example.com/images/david.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-13',
     stars: 4,
@@ -110,7 +102,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Laura Martinez',
-    // imgUrl: "https://example.com/images/laura.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-12',
     stars: 5,
@@ -120,7 +111,6 @@ export const reviews = [
   {
     id: '100',
     user: 'Robert Wilson',
-    // imgUrl: "https://example.com/images/robert.jpg",
     imgUrl: 'images/avatar.webp',
     date: '2025-02-11',
     stars: 5,
