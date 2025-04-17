@@ -147,7 +147,7 @@ export const interestPlaceTemplate = ({ name, imageUrl, address, description }) 
   <div class="interest-card" id="place-container">
     <h2>${name}</h2>
     <figure>
-      <img src="${imageUrl}" alt="${name}" width="550" height="413" loading="eager">
+      <img src="${imageUrl}" alt="${name}" width="550" height="413" loading="lazy">
     </figure>
     <p>${description}</p>
     <address>${address}</address>
