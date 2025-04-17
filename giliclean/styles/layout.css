@@ -28,7 +28,7 @@
   --sub-headding: 35px;
   --title: 24px;
   --label: 18px;
-  --body: 12px;
+  --body: 20px;
   --button: 15px;
   --copyrigth: 10px;
   --copyrigth-small: 10px;
@@ -44,7 +44,7 @@ header a {
 
 header {
   background-color: var(--white);
-  /* margin-bottom: 0.5rem; */
+  margin-bottom: 1rem;
 }
 
 header>div {
