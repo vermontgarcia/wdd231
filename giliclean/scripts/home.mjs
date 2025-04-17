@@ -2,7 +2,7 @@ import Header from '../components/Header.mjs';
 import { home } from './helpers/consts.mjs';
 import { qs } from './helpers/utils.mjs';
 import {
-  services,
+  ourServices,
   reviews,
   inputStartAttributes,
   teamMembers,
@@ -18,7 +18,7 @@ const servicesSection = document.querySelector('#services .container');
 if (servicesSection) {
   const cardsContainer = document.createElement('div');
   cardsContainer.setAttribute('class', 'cards-container');
-  services.slice(0, 3).forEach(({ name, description }) => {
+  ourServices.slice(0, 3).forEach(({ name, description }) => {
     // Create Services Cards and add them to the DOM
     const cardDiv = document.createElement('div');
     cardDiv.setAttribute('class', 'card');

@@ -44,7 +44,7 @@ header a {
 
 header {
   background-color: var(--white);
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 header>div {

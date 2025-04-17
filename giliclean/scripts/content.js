@@ -1,4 +1,4 @@
-export const services = [
+export const ourServices = [
   {
     name: 'Recurring (Standard) Cleaning',
     description:
