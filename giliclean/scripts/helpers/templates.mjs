@@ -164,3 +164,26 @@ export const addTeam = (teamMembers) => {
   });
   joinOurTeamSection.appendChild(cardsContainer);
 };
+
+export const addAllServices = (ourServices) => {
+  const servicesAllPageSection = document.querySelector(
+    '#services-all .container'
+  );
+  const cardsContainer = document.createElement('div');
+  cardsContainer.setAttribute('class', 'cards-container');
+  ourServices.forEach(({ name, description }) => {
+    // Create Services Cards and add them to the DOM
+    const cardDiv = document.createElement('div');
+    cardDiv.setAttribute('class', 'card');
+    const cardH3 = document.createElement('h3');
+    const cardP = document.createElement('p');
+
+    cardH3.innerHTML = name;
+    cardP.innerHTML = description;
+
+    cardDiv.append(cardH3, cardP);
+
+    cardsContainer.appendChild(cardDiv);
+  });
+  servicesAllPageSection.append(cardsContainer);
+};
