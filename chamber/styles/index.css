@@ -194,7 +194,8 @@ header>div {
   }
 }
 
-.thankyou section {
+.thankyou section,
+.discover section {
   padding: 1rem;
 }
 
