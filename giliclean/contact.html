@@ -36,7 +36,128 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <div class="hero">
+        <picture>
+          <source media="(min-width: 1000px)" srcset="images/hero-large.webp" />
+          <source media="(min-width: 500px)" srcset="images/hero-medium.webp" />
+          <img
+            src="images/hero-small.webp"
+            alt="Pristine clean home"
+            width="500"
+            height="313"
+          />
+        </picture>
+      </div>
+      <h1>Send Us A Message!</h1>
+      <form
+        id="contact-form"
+        method="post"
+        action="index.html"
+        class="contact-form"
+      >
+        <fieldset>
+          <label
+            >Your Name<span class="required">*</span>
+            <input type="text" name="name" id="name" required autocomplete />
+          </label>
+          <label
+            >Your Email<span class="required">*</span>
+            <input type="text" name="email" id="email" required autocomplete />
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>What is your topic about?</p>
+          <div class="topic">
+            <label
+              ><input
+                type="radio"
+                name="topic"
+                id="estimate"
+                value="estimate"
+                required
+              />Get an Estimate</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="topic"
+                id="booking"
+                value="booking"
+                required
+              />Booking</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="topic"
+                id="review"
+                value="review"
+                required
+              />Review</label
+            >
+          </div>
+          <div id="stars-reviews" class="stars-reviews hidden">
+            <div>Overall Rating<span class="required">*</span></div>
+            <div class="stars-form">
+              <input
+                class="star-radio"
+                type="radio"
+                id="fivestar"
+                name="stars"
+                value="5"
+              /><label for="fivestar"></label>
+              <input
+                class="star-radio"
+                type="radio"
+                id="fourstar"
+                name="stars"
+                value="4"
+              /><label for="fourstar"></label>
+              <input
+                class="star-radio"
+                type="radio"
+                id="threestar"
+                name="stars"
+                value="3"
+              /><label for="threestar"></label>
+              <input
+                class="star-radio"
+                type="radio"
+                id="twostar"
+                name="stars"
+                value="2"
+              /><label for="twostar"></label>
+              <input
+                class="star-radio"
+                type="radio"
+                id="onestar"
+                name="stars"
+                value="1"
+              /><label for="onestar"></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="comments">
+            <label
+              >Tell Us the details<span class="required">*</span>
+              <textarea name="review" id="review" rows="5" required></textarea>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <input
+            id="submit-btn"
+            type="submit"
+            role="button"
+            class="button"
+            value="Send My Message"
+          />
+        </fieldset>
+      </form>
+    </main>
+    <hr />
     <footer></footer>
   </body>
 </html>
