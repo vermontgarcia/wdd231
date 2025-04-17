@@ -28,8 +28,9 @@
   }
 
   section .cards-container {
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+  
 
   /* Services */
 
@@ -78,4 +79,11 @@
   .footer .links a {
     padding: 0 2.5rem;
   }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #reviews .cards-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
 }

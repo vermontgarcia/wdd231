@@ -122,10 +122,10 @@
 /* Services Section */
 
 section .cards-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: 2rem;
+  gap: 1rem;
 }
 
 #reviews .cards-container img {
