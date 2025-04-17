@@ -143,16 +143,11 @@ export const membershipRowTemplate = ({ name, data }) => `
   <p><strong>${name}:</strong> ${data}</p>
 `;
 
-export const interestPlaceTemplate = ({
-  name,
-  imageUrl,
-  address,
-  description,
-}) => `
+export const interestPlaceTemplate = ({ name, imageUrl, address, description }) => `
   <div class="interest-card" id="place-container">
     <h2>${name}</h2>
     <figure>
-      <img src="${imageUrl}" alt="${name}" width="550" height="413" loading="lazy">
+      <img src="${imageUrl}" alt="${name}" width="550" height="413" loading="eager">
     </figure>
     <p>${description}</p>
     <address>${address}</address>
