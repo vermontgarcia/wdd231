@@ -36,6 +36,23 @@
   .membership-section {
     background-color: var(--white);
   }
+
+  .interest-card {
+    border: 1px solid var(--background-color-light);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas:
+      "name name"
+      "photo description"
+      "photo location"
+      "photo action";
+  }
+
+  .interest-card img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -90,6 +107,10 @@
   .join-us-main {
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  #discover-container {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

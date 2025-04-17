@@ -142,3 +142,22 @@ export const thankyouTemplate = ({ paragraph }) => paragraph;
 export const membershipRowTemplate = ({ name, data }) => `
   <p><strong>${name}:</strong> ${data}</p>
 `;
+
+export const interestPlaceTemplate = ({
+  name,
+  imageUrl,
+  address,
+  description,
+}) => `
+  <div class="interest-card" id="place-container">
+    <h2>${name}</h2>
+    <figure>
+      <img src="${imageUrl}" alt="${name}" width="550" height="413" loading="lazy">
+    </figure>
+    <p>${description}</p>
+    <address>${address}</address>
+    <div>
+      <button>Learn More</button>
+    </div>
+  </div>
+`;

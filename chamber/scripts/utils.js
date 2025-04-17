@@ -201,3 +201,20 @@ export const timeToHuman = (timestamp) => {
   };
   return date.toLocaleDateString('en-US', options);
 };
+
+export const getDiscoverTitle = () => {
+  const today = new Date();
+  const lastVisitStr = localStorage.getItem('lastVisit');
+  let title = 'Welcome! Let us know if you have any questions!';
+  if (lastVisitStr) {
+    const lastVisit = new Date(lastVisitStr);
+    const daysDifference = (today - lastVisit) / (1000 * 3600 * 24);
+    if (daysDifference <= 1) {
+      title = 'Back so soon! Awesome!';
+    } else {
+      title = `You last visited ${daysDifference.toFixed(0)} days ago!`;
+    }
+  }
+  localStorage.setItem('lastVisit', new Date());
+  return title;
+};

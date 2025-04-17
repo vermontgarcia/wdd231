@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+}
+
+#discover-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.interest-card {
+  border: 1px solid var(--background-color-light);
+  border-radius: 5px;
+  display: grid;
+  overflow: hidden;
+  grid-template-areas: 
+  "name" 
+  "photo"
+  "description"
+  "location"
+  "action";
+}
+
+.interest-card:hover {
+  box-shadow: 1px 1px 4px var(--background-color-dark);
+}
+
+.interest-card h2 {
+  padding: 0.5rem;
+  text-align: center;
+  grid-area: name;
+  height: fit-content;
+}
+
+.interest-card img {
+  width: 100%;
+  height: auto;
+}
+
+.interest-card figure {
+  grid-area: photo;
+}
+
+.interest-card address{
+  grid-area: location;
+}
+
+.interest-card p {
+  grid-area: description;
+}
+
+.interest-card div,
+.interest-card address,
+.interest-card p {
+  padding: 1rem;
+}
+
+.interest-card div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  grid-area: action;
+}
+
+.interest-card button {
+  background-color: var(--background-color-dark);
+  color: var(--submit-button);
+  padding: 0.75rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px var(--background-color-dark);
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Bridal Veil Falls",
+    "address": "Provo Canyon (Hwy. 189), Provo, UT 84604",
+    "description": "A stunning 607-foot waterfall nestled in Provo Canyon, easily accessible and perfect for hiking, picnicking, and photography.",
+    "imageUrl": "images/interest/bridal-veil.webp"
+  },
+  {
+    "name": "Provo Canyon",
+    "address": "US 189, Provo, UT 84604",
+    "description": "A scenic canyon offering outdoor activities like hiking, biking, and fishing, with picturesque views and natural beauty.",
+    "imageUrl": "images/interest/provo-canyon.webp"
+  },
+  {
+    "name": "Monte L. Bean Life Science Museum",
+    "address": "645 E 1430 N, Provo, UT 84602",
+    "description": "Located on the BYU campus, this museum features extensive exhibits on wildlife and ecosystems, making it an educational stop for all ages.",
+    "imageUrl": "images/interest/science-museum.webp"
+  },
+  {
+    "name": "Provo City Center Temple",
+    "address": "50 South University Ave, Provo, UT 84601",
+    "description": "A beautifully restored historic building serving as a temple for The Church of Jesus Christ of Latter-day Saints, notable for its architecture and serene grounds.",
+    "imageUrl": "images/interest/provo-city-temple.webp"
+  },
+  {
+    "name": "The Y Trail",
+    "address": "Trailhead near 1200 E 820 N, Provo, UT 84604",
+    "description": "A popular hiking trail leading to a large concrete 'Y' on the mountainside, offering panoramic views of Provo and Utah Valley.",
+    "imageUrl": "images/interest/the-y-trial.webp"
+  },
+  {
+    "name": "Provo Pioneer Village",
+    "address": "600 North 500 West, Provo, UT 84601",
+    "description": "Experience 19th-century pioneer life through restored buildings and artifacts in this living history museum.",
+    "imageUrl": "images/interest/provo-pioneer-village.webp"
+  },
+  {
+    "name": "Provo Farmers Market",
+    "address": "Pioneer Park, 500 W Center St, Provo, UT 84601",
+    "description": "Held at Pioneer Park from June to October, this market features local produce, crafts, and live entertainment, providing a taste of the local community.",
+    "imageUrl": "images/interest/provo-farmers-market.webp"
+  },
+  {
+    "name": "Mount Timpanogos",
+    "address": "Trailheads accessible via American Fork Canyon, UT",
+    "description": "A challenging hike that rewards adventurers with breathtaking views, alpine meadows, and the chance to explore Timpanogos Cave National Monument nearby.",
+    "imageUrl": "images/interest/mount-timpanogos.webp"
+  },
+  {
+    "name": "Historic Downtown Provo",
+    "address": "Center Street, Provo, UT 84601",
+    "description": "A vibrant area filled with unique shops, restaurants, and cultural venues, offering a glimpse into the city's rich history and contemporary life.",
+    "imageUrl": "images/interest/historic-downtown-provo.webp"
+  },
+  {
+    "name": "Provo River Parkway Trail",
+    "address": "Trail access points throughout Provo, including Canyon Glen Park and Paul Ream Wilderness Park",
+    "description": "A scenic trail perfect for walking, running, or biking, stretching through Provo Canyon and offering beautiful views along the Provo River.",
+    "imageUrl": "images/interest/provo-river-parkway-trial.webp"
+  },
+  {
+    "name": "Provo Beach",
+    "address": "4801 N University Ave #210, Provo, UT 84604",
+    "description": "An indoor family fun center featuring activities like surfing on a FlowRider, ropes courses, and arcade games, suitable for all ages.",
+    "imageUrl": "images/interest/provo-beach.webp"
+  },
+  {
+    "name": "Castle Amphitheater",
+    "address": "1300 East Center Street, Provo, UT 84601",
+    "description": "A unique outdoor venue known for hosting concerts and events, set against a picturesque backdrop that adds charm to any performance.",
+    "imageUrl": "images/interest/castle-amphitheater.webp"
+  }
+]
